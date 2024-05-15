@@ -1,4 +1,5 @@
 import React from "react";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Header2 from "../components/header/Header2";
 import Banner from "../components/Home2/Banner";
 import SolutionSection from "../components/Home2/SolutionSection";
@@ -15,7 +16,32 @@ import Blog from "../components/Home2/Blog";
 import Contact from "../components/Home2/Contact";
 import Footer2 from "../components/footer/Footer2";
 
-const HomepageTwo = () => {
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, [
+        "common",
+        "header",
+        "banner",
+        "solution",
+        "about",
+        "testimonial",
+        "cover",
+        "event",
+        "project",
+        "choose",
+        "video",
+        "people",
+        "client",
+        "blog",
+        "contact",
+        "footer",
+      ])),
+    },
+  };
+}
+
+const Home = () => {
   return (
     <>
       <Header2 />
@@ -37,4 +63,4 @@ const HomepageTwo = () => {
   );
 };
 
-export default HomepageTwo;
+export default Home;
