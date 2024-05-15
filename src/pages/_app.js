@@ -6,7 +6,9 @@ import useButtonHover from "../hooks/useButtonHover";
 import SmoothPageScroll from "../utils/SmoothPageScroll";
 import ScrollTopBtn from "../components/common/ScrollTopBtn";
 import Head from "next/head";
-export default function App({ Component, pageProps }) {
+import { appWithTranslation } from "next-i18next";
+
+function App({ Component, pageProps }) {
   useButtonHover();
   useMagneticHover();
   useEffect(() => {
@@ -28,3 +30,5 @@ export default function App({ Component, pageProps }) {
     </>
   );
 }
+
+export default appWithTranslation(App);
