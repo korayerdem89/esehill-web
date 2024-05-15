@@ -1,0 +1,33 @@
+{
+  "navigation": [
+    {
+      "label": "Ana Sayfa",
+      "link": "/"
+    },
+    {
+      "label": "Hizmetler",
+      "link": "/services"
+    },
+    {
+      "label": "Sayfalar",
+      "link": "/pages"
+    },
+    {
+      "label": "Portföy",
+      "link": "/portfolio"
+    },
+    {
+      "label": "İletişim",
+      "link": "/contact"
+    }
+  ],
+  "cta": {
+    "label": "Bize Ulaşın",
+    "link": "/"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "nl": "Dutch"
+  }
+}
