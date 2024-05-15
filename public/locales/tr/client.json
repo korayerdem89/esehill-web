@@ -1,0 +1,21 @@
+{
+  "title": "Müşterilerimiz",
+  "description": "Birlikte çalıştığımız ve başarılarına katkıda bulunduğumuz müşterilerimizden bazıları:",
+  "clients": [
+    {
+      "id": 1,
+      "name": "ABC Company",
+      "logo": "abc-logo.png"
+    },
+    {
+      "id": 2,
+      "name": "XYZ Corporation",
+      "logo": "xyz-logo.png"
+    },
+    {
+      "id": 3,
+      "name": "123 Industries",
+      "logo": "123-logo.png"
+    }
+  ]
+}

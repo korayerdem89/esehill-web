@@ -1,0 +1,27 @@
+{
+  "title": "Ekibimiz",
+  "description": "Uzman ve deneyimli ekibimizle tanışın.",
+  "people": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "title": "CEO",
+      "bio": "20 yılı aşkın sektör deneyimiyle şirketimizin vizyonunu belirliyor ve yönetiyor.",
+      "image": "john-doe.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "title": "CTO",
+      "bio": "Teknoloji alanında uzman olan Jane, inovatif çözümlerimizin arkasındaki itici güçtür.",
+      "image": "jane-smith.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Mike Johnson",
+      "title": "Pazarlama Müdürü",
+      "bio": "Mike, pazarlama stratejilerimizi geliştirmek ve marka bilinirliğimizi artırmak için çalışıyor.",
+      "image": "mike-johnson.jpg"
+    }
+  ]
+}

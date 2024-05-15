@@ -1,0 +1,55 @@
+{
+  "description": "İşletmenizin başarısı için buradayız.",
+  "contact": {
+    "address": "Örnek Mahalle, Örnek Cadde, No: 123, Örnek Şehir",
+    "phone": "+90 123 456 78 90",
+    "email": "info@example.com"
+  },
+  "links": [
+    {
+      "title": "Ana Sayfa",
+      "url": "/"
+    },
+    {
+      "title": "Hakkımızda",
+      "url": "/about"
+    },
+    {
+      "title": "Hizmetlerimiz",
+      "url": "/services"
+    },
+    {
+      "title": "Blog",
+      "url": "/blog"
+    },
+    {
+      "title": "İletişim",
+      "url": "/contact"
+    }
+  ],
+  "social": [
+    {
+      "platform": "Facebook",
+      "url": "https://www.facebook.com/examplecompany"
+    },
+    {
+      "platform": "Twitter",
+      "url": "https://www.twitter.com/examplecompany"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/company/examplecompany"
+    },
+    {
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/examplecompany"
+    }
+  ],
+  "subscribe": {
+    "title": "Bültenimize Abone Olun",
+    "description": "En son haberler, güncellemeler ve teklifler için e-posta listemize kaydolun.",
+    "placeholder": "E-posta adresinizi girin",
+    "buttonText": "Abone Ol"
+  },
+  "copyright": "© 2023 Örnek Şirket. Tüm hakları saklıdır."
+}

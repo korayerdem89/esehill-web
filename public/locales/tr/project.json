@@ -1,0 +1,30 @@
+{
+  "title": "Projelerimiz",
+  "description": "Başarıyla tamamladığımız projelerden bazı örnekler.",
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-ticaret Platformu",
+      "description": "XYZ şirketi için kullanıcı dostu ve ölçeklenebilir bir e-ticaret platformu geliştirdik.",
+      "image": "project1.jpg",
+      "client": "XYZ Company",
+      "year": 2022
+    },
+    {
+      "id": 2,
+      "title": "Mobil Uygulama",
+      "description": "ABC firması için müşteri etkileşimini artıran bir mobil uygulama tasarladık ve geliştirdik.",
+      "image": "project2.jpg",
+      "client": "ABC Inc.",
+      "year": 2021
+    },
+    {
+      "id": 3,
+      "title": "Veri Analizi Platformu",
+      "description": "123 şirketi için gerçek zamanlı veri analizi sağlayan bir platform oluşturduk.",
+      "image": "project3.jpg",
+      "client": "123 Corporation",
+      "year": 2023
+    }
+  ]
+}

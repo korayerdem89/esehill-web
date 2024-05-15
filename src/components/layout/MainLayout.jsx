@@ -6,11 +6,11 @@ import { useRouter } from "next/router";
 
 const MainLayout = ({ children }) => {
   const route = useRouter();
-  const path = route.pathname
+  const path = route.pathname;
   return (
     <>
       <Header2 />
-      <Breadcrumb/> 
+      <Breadcrumb />
       {children}
       <Footer2 />
     </>

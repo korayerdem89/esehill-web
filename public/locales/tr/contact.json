@@ -1,0 +1,33 @@
+{
+  "title": "Bize Ulaşın",
+  "description": "Bize ulaşmak için aşağıdaki iletişim bilgilerini kullanabilirsiniz.",
+  "address": "Örnek Mahalle, Örnek Cadde, No: 123, Örnek Şehir",
+  "phone": "+90 123 456 78 90",
+  "email": "info@example.com",
+  "socialMedia": [
+    {
+      "platform": "Facebook",
+      "url": "https://www.facebook.com/examplecompany"
+    },
+    {
+      "platform": "Twitter",
+      "url": "https://www.twitter.com/examplecompany"
+    },
+    {
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/examplecompany"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/company/examplecompany"
+    }
+  ],
+  "form": {
+    "name": "Ad",
+    "email": "E-posta",
+    "message": "Mesaj",
+    "submit": "Gönder"
+  },
+  "successMessage": "Mesajınız başarıyla gönderildi. En kısa sürede size geri dönüş yapacağız.",
+  "errorMessage": "Mesajınız gönderilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+}
