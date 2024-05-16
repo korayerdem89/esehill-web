@@ -94,32 +94,6 @@ const CarrerPage = () => {
                 <div className="event-pagination" />
               </div>
               <div className="review-and-counter-area">
-                <a href="https://clutch.co/" className="review-area">
-                  <div className="review-name">
-                    <span>Review On</span>
-                    <img src="assets/img/home1/clutch-logo.svg" alt="" />
-                  </div>
-                  <div className="review">
-                    <ul>
-                      <li>
-                        <i className="bi bi-star-fill" />
-                      </li>
-                      <li>
-                        <i className="bi bi-star-fill" />
-                      </li>
-                      <li>
-                        <i className="bi bi-star-fill" />
-                      </li>
-                      <li>
-                        <i className="bi bi-star-fill" />
-                      </li>
-                      <li>
-                        <i className="bi bi-star-half" />
-                      </li>
-                    </ul>
-                    <span>(50 reviews)</span>
-                  </div>
-                </a>
                 <ul className="counter-wrap">
                   <li className="single-counter">
                     <div className="icon">

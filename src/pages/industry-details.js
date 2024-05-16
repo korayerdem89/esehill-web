@@ -1,5 +1,5 @@
 import React, { useMemo } from "react";
-import CountUp from 'react-countup';
+import CountUp from "react-countup";
 import SwiperCore, { Autoplay, EffectFade, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
@@ -122,30 +122,26 @@ const IndustryDetails = () => {
             <div className="row g-lg-4 gy-2">
               <div className="col-lg-6">
                 <p className="first-para">
-                  T he real estate industry is a multifaceted sector of the
-                  economy that involves the buying, selling, development,
-                  management, and financing of real property, which includes
-                  land and physical structures. It plays a significant role in
-                  the global economy and encompasses various aspects of real
-                  estate transactions and operations. The real estate industry
-                  is influenced by economic conditions, population growth,
-                  urbanization trends, and government policies. It is a vital
-                  part of the economy, providing housing, commercial spaces, and
-                  infrastructure for communities and businesses , helping
-                  individuals and organizations navigate property transactions
-                  and investments.
+                  T he real estate industry is a multifaceted sector of the economy that involves
+                  the buying, selling, development, management, and financing of real property,
+                  which includes land and physical structures. It plays a significant role in the
+                  global economy and encompasses various aspects of real estate transactions and
+                  operations. The real estate industry is influenced by economic conditions,
+                  population growth, urbanization trends, and government policies. It is a vital
+                  part of the economy, providing housing, commercial spaces, and infrastructure for
+                  communities and businesses , helping individuals and organizations navigate
+                  property transactions and investments.
                 </p>
               </div>
               <div className="col-lg-6">
                 <p>
-                  In a rapidly evolving and complex healthcare landscape, health
-                  and care consulting serves as a valuable resource for
-                  healthcare organizations looking to navigate challenges,
-                  improve patient care, and remain competitive. The advantages
-                  of consulting services are often realized through improved
-                  outcomes, increased patient satisfaction, and better overall
-                  healthcare delivery. Real estate professionals, from realtors
-                  to property developers, play crucial roles in this industry.
+                  In a rapidly evolving and complex healthcare landscape, health and care consulting
+                  serves as a valuable resource for healthcare organizations looking to navigate
+                  challenges, improve patient care, and remain competitive. The advantages of
+                  consulting services are often realized through improved outcomes, increased
+                  patient satisfaction, and better overall healthcare delivery. Real estate
+                  professionals, from realtors to property developers, play crucial roles in this
+                  industry.
                 </p>
               </div>
             </div>
@@ -168,9 +164,8 @@ const IndustryDetails = () => {
                       >
                         <path d="M12.1223 3.1903C12.1631 3.23094 12.1954 3.27922 12.2174 3.33237C12.2395 3.38552 12.2508 3.4425 12.2508 3.50005C12.2508 3.5576 12.2395 3.61458 12.2174 3.66773C12.1954 3.72088 12.1631 3.76916 12.1223 3.8098L5.99731 9.9348C5.95667 9.97554 5.9084 10.0079 5.85524 10.0299C5.80209 10.052 5.74511 10.0633 5.68756 10.0633C5.63002 10.0633 5.57304 10.052 5.51988 10.0299C5.46673 10.0079 5.41845 9.97554 5.37781 9.9348L2.31531 6.8723C2.23316 6.79015 2.18701 6.67873 2.18701 6.56255C2.18701 6.44637 2.23316 6.33495 2.31531 6.2528C2.39747 6.17065 2.50889 6.1245 2.62506 6.1245C2.74124 6.1245 2.85266 6.17065 2.93481 6.2528L5.68756 9.00642L11.5028 3.1903C11.5435 3.14956 11.5917 3.11723 11.6449 3.09518C11.698 3.07312 11.755 3.06177 11.8126 3.06177C11.8701 3.06177 11.9271 3.07312 11.9802 3.09518C12.0334 3.11723 12.0817 3.14956 12.1223 3.1903Z" />
                       </svg>
-                      Residential real estate involves properties used for
-                      housing and includes single-family homes, condominiums,
-                      apartments, townhouses, and vacation homes.
+                      Residential real estate involves properties used for housing and includes
+                      single-family homes, condominiums, apartments, townhouses, and vacation homes.
                     </li>
                     <li>
                       <svg
@@ -181,8 +176,8 @@ const IndustryDetails = () => {
                       >
                         <path d="M12.1223 3.1903C12.1631 3.23094 12.1954 3.27922 12.2174 3.33237C12.2395 3.38552 12.2508 3.4425 12.2508 3.50005C12.2508 3.5576 12.2395 3.61458 12.2174 3.66773C12.1954 3.72088 12.1631 3.76916 12.1223 3.8098L5.99731 9.9348C5.95667 9.97554 5.9084 10.0079 5.85524 10.0299C5.80209 10.052 5.74511 10.0633 5.68756 10.0633C5.63002 10.0633 5.57304 10.052 5.51988 10.0299C5.46673 10.0079 5.41845 9.97554 5.37781 9.9348L2.31531 6.8723C2.23316 6.79015 2.18701 6.67873 2.18701 6.56255C2.18701 6.44637 2.23316 6.33495 2.31531 6.2528C2.39747 6.17065 2.50889 6.1245 2.62506 6.1245C2.74124 6.1245 2.85266 6.17065 2.93481 6.2528L5.68756 9.00642L11.5028 3.1903C11.5435 3.14956 11.5917 3.11723 11.6449 3.09518C11.698 3.07312 11.755 3.06177 11.8126 3.06177C11.8701 3.06177 11.9271 3.07312 11.9802 3.09518C12.0334 3.11723 12.0817 3.14956 12.1223 3.1903Z" />
                       </svg>
-                      Residential real estate agents and brokers help
-                      individuals buy, sell, or rent homes.
+                      Residential real estate agents and brokers help individuals buy, sell, or rent
+                      homes.
                     </li>
                   </ul>
                 </div>
@@ -200,9 +195,8 @@ const IndustryDetails = () => {
                       >
                         <path d="M12.1223 3.1903C12.1631 3.23094 12.1954 3.27922 12.2174 3.33237C12.2395 3.38552 12.2508 3.4425 12.2508 3.50005C12.2508 3.5576 12.2395 3.61458 12.2174 3.66773C12.1954 3.72088 12.1631 3.76916 12.1223 3.8098L5.99731 9.9348C5.95667 9.97554 5.9084 10.0079 5.85524 10.0299C5.80209 10.052 5.74511 10.0633 5.68756 10.0633C5.63002 10.0633 5.57304 10.052 5.51988 10.0299C5.46673 10.0079 5.41845 9.97554 5.37781 9.9348L2.31531 6.8723C2.23316 6.79015 2.18701 6.67873 2.18701 6.56255C2.18701 6.44637 2.23316 6.33495 2.31531 6.2528C2.39747 6.17065 2.50889 6.1245 2.62506 6.1245C2.74124 6.1245 2.85266 6.17065 2.93481 6.2528L5.68756 9.00642L11.5028 3.1903C11.5435 3.14956 11.5917 3.11723 11.6449 3.09518C11.698 3.07312 11.755 3.06177 11.8126 3.06177C11.8701 3.06177 11.9271 3.07312 11.9802 3.09518C12.0334 3.11723 12.0817 3.14956 12.1223 3.1903Z" />
                       </svg>
-                      Commercial real estate is used for business purposes and
-                      includes office buildings, retail spaces, hotels, shopping
-                      centers, and industrial facilities.
+                      Commercial real estate is used for business purposes and includes office
+                      buildings, retail spaces, hotels, shopping centers, and industrial facilities.
                     </li>
                     <li>
                       <svg
@@ -213,8 +207,8 @@ const IndustryDetails = () => {
                       >
                         <path d="M12.1223 3.1903C12.1631 3.23094 12.1954 3.27922 12.2174 3.33237C12.2395 3.38552 12.2508 3.4425 12.2508 3.50005C12.2508 3.5576 12.2395 3.61458 12.2174 3.66773C12.1954 3.72088 12.1631 3.76916 12.1223 3.8098L5.99731 9.9348C5.95667 9.97554 5.9084 10.0079 5.85524 10.0299C5.80209 10.052 5.74511 10.0633 5.68756 10.0633C5.63002 10.0633 5.57304 10.052 5.51988 10.0299C5.46673 10.0079 5.41845 9.97554 5.37781 9.9348L2.31531 6.8723C2.23316 6.79015 2.18701 6.67873 2.18701 6.56255C2.18701 6.44637 2.23316 6.33495 2.31531 6.2528C2.39747 6.17065 2.50889 6.1245 2.62506 6.1245C2.74124 6.1245 2.85266 6.17065 2.93481 6.2528L5.68756 9.00642L11.5028 3.1903C11.5435 3.14956 11.5917 3.11723 11.6449 3.09518C11.698 3.07312 11.755 3.06177 11.8126 3.06177C11.8701 3.06177 11.9271 3.07312 11.9802 3.09518C12.0334 3.11723 12.0817 3.14956 12.1223 3.1903Z" />
                       </svg>
-                      Commercial real estate brokers and leasing agents
-                      facilitate transactions for businesses and investors.
+                      Commercial real estate brokers and leasing agents facilitate transactions for
+                      businesses and investors.
                     </li>
                   </ul>
                 </div>
@@ -234,10 +228,9 @@ const IndustryDetails = () => {
                       >
                         <path d="M12.1223 3.1903C12.1631 3.23094 12.1954 3.27922 12.2174 3.33237C12.2395 3.38552 12.2508 3.4425 12.2508 3.50005C12.2508 3.5576 12.2395 3.61458 12.2174 3.66773C12.1954 3.72088 12.1631 3.76916 12.1223 3.8098L5.99731 9.9348C5.95667 9.97554 5.9084 10.0079 5.85524 10.0299C5.80209 10.052 5.74511 10.0633 5.68756 10.0633C5.63002 10.0633 5.57304 10.052 5.51988 10.0299C5.46673 10.0079 5.41845 9.97554 5.37781 9.9348L2.31531 6.8723C2.23316 6.79015 2.18701 6.67873 2.18701 6.56255C2.18701 6.44637 2.23316 6.33495 2.31531 6.2528C2.39747 6.17065 2.50889 6.1245 2.62506 6.1245C2.74124 6.1245 2.85266 6.17065 2.93481 6.2528L5.68756 9.00642L11.5028 3.1903C11.5435 3.14956 11.5917 3.11723 11.6449 3.09518C11.698 3.07312 11.755 3.06177 11.8126 3.06177C11.8701 3.06177 11.9271 3.07312 11.9802 3.09518C12.0334 3.11723 12.0817 3.14956 12.1223 3.1903Z" />
                       </svg>
-                      Real estate investment involves purchasing properties for
-                      the purpose of generating rental income or capital
-                      appreciation. Investors may buy residential, commercial,
-                      or industrial properties.
+                      Real estate investment involves purchasing properties for the purpose of
+                      generating rental income or capital appreciation. Investors may buy
+                      residential, commercial, or industrial properties.
                     </li>
                     <li>
                       <svg
@@ -248,9 +241,8 @@ const IndustryDetails = () => {
                       >
                         <path d="M12.1223 3.1903C12.1631 3.23094 12.1954 3.27922 12.2174 3.33237C12.2395 3.38552 12.2508 3.4425 12.2508 3.50005C12.2508 3.5576 12.2395 3.61458 12.2174 3.66773C12.1954 3.72088 12.1631 3.76916 12.1223 3.8098L5.99731 9.9348C5.95667 9.97554 5.9084 10.0079 5.85524 10.0299C5.80209 10.052 5.74511 10.0633 5.68756 10.0633C5.63002 10.0633 5.57304 10.052 5.51988 10.0299C5.46673 10.0079 5.41845 9.97554 5.37781 9.9348L2.31531 6.8723C2.23316 6.79015 2.18701 6.67873 2.18701 6.56255C2.18701 6.44637 2.23316 6.33495 2.31531 6.2528C2.39747 6.17065 2.50889 6.1245 2.62506 6.1245C2.74124 6.1245 2.85266 6.17065 2.93481 6.2528L5.68756 9.00642L11.5028 3.1903C11.5435 3.14956 11.5917 3.11723 11.6449 3.09518C11.698 3.07312 11.755 3.06177 11.8126 3.06177C11.8701 3.06177 11.9271 3.07312 11.9802 3.09518C12.0334 3.11723 12.0817 3.14956 12.1223 3.1903Z" />
                       </svg>
-                      Real estate investment trusts (REITs) provide a way for
-                      investors to access real estate assets through publicly
-                      traded securities.
+                      Real estate investment trusts (REITs) provide a way for investors to access
+                      real estate assets through publicly traded securities.
                     </li>
                   </ul>
                 </div>
@@ -294,7 +286,9 @@ const IndustryDetails = () => {
                     <div className="content">
                       <div className="content-top">
                         <div className="number">
-                          <h2 className="counter"><CountUp delay={2} end={80} /></h2>
+                          <h2 className="counter">
+                            <CountUp delay={2} end={80} />
+                          </h2>
                           <span>%</span>
                         </div>
                         <span>Plus</span>
@@ -318,7 +312,9 @@ const IndustryDetails = () => {
                     <div className="content">
                       <div className="content-top">
                         <div className="number">
-                          <h2 className="counter"><CountUp delay={2} end={90} /></h2>
+                          <h2 className="counter">
+                            <CountUp delay={2} end={90} />
+                          </h2>
                           <span>%</span>
                         </div>
                         <span>Plus</span>
@@ -444,10 +440,7 @@ const IndustryDetails = () => {
                           </ul>
                           <h4>
                             <Link legacyBehavior href="/blog-details">
-                              <a>
-                                Consulting Industry Adapts to the Changing
-                                Business Landscape.
-                              </a>
+                              <a>Consulting Industry Adapts to the Changing Business Landscape.</a>
                             </Link>
                           </h4>
                           <Link legacyBehavior href="/blog-details">
@@ -515,8 +508,8 @@ const IndustryDetails = () => {
                           <h4>
                             <Link legacyBehavior href="/blog-details">
                               <a>
-                                Tech-Driven Disruption: How Consulting Firms Are
-                                Embracing Innovation.
+                                Tech-Driven Disruption: How Consulting Firms Are Embracing
+                                Innovation.
                               </a>
                             </Link>
                           </h4>
@@ -585,8 +578,7 @@ const IndustryDetails = () => {
                           <h4>
                             <Link legacyBehavior href="/blog-details">
                               <a>
-                                The Future of Strategy Consulting: Insights from
-                                Industry Leaders.
+                                The Future of Strategy Consulting: Insights from Industry Leaders.
                               </a>
                             </Link>
                           </h4>
@@ -654,10 +646,7 @@ const IndustryDetails = () => {
                           </ul>
                           <h4>
                             <Link legacyBehavior href="/blog-details">
-                              <a>
-                                The Role of AI and Data Analytics in Modern
-                                Consulting.
-                              </a>
+                              <a>The Role of AI and Data Analytics in Modern Consulting.</a>
                             </Link>
                           </h4>
                           <Link legacyBehavior href="/blog-details">
@@ -724,10 +713,7 @@ const IndustryDetails = () => {
                           </ul>
                           <h4>
                             <Link legacyBehavior href="/blog-details">
-                              <a>
-                                Consulting Industry Adapts to the Changing
-                                Business Landscape.
-                              </a>
+                              <a>Consulting Industry Adapts to the Changing Business Landscape.</a>
                             </Link>
                           </h4>
                           <Link legacyBehavior href="/blog-details">
@@ -795,8 +781,8 @@ const IndustryDetails = () => {
                           <h4>
                             <Link legacyBehavior href="/blog-details">
                               <a>
-                                Tech-Driven Disruption: How Consulting Firms Are
-                                Embracing Innovation.
+                                Tech-Driven Disruption: How Consulting Firms Are Embracing
+                                Innovation.
                               </a>
                             </Link>
                           </h4>
@@ -865,8 +851,7 @@ const IndustryDetails = () => {
                           <h4>
                             <Link legacyBehavior href="/blog-details">
                               <a>
-                                The Future of Strategy Consulting: Insights from
-                                Industry Leaders.
+                                The Future of Strategy Consulting: Insights from Industry Leaders.
                               </a>
                             </Link>
                           </h4>
@@ -934,10 +919,7 @@ const IndustryDetails = () => {
                           </ul>
                           <h4>
                             <Link legacyBehavior href="/blog-details">
-                              <a>
-                                The Role of AI and Data Analytics in Modern
-                                Consulting.
-                              </a>
+                              <a>The Role of AI and Data Analytics in Modern Consulting.</a>
                             </Link>
                           </h4>
                           <Link legacyBehavior href="/blog-details">
@@ -967,10 +949,7 @@ const IndustryDetails = () => {
           </div>
         </div>
       </div>
-      <div
-        className="industry-details-graph-section mb-130"
-        id="insdustryImpact"
-      >
+      <div className="industry-details-graph-section mb-130" id="insdustryImpact">
         <div className="container-fluid one pl--95">
           <div className="row">
             <div className="col-lg-12 mb-40">
@@ -998,11 +977,7 @@ const IndustryDetails = () => {
                       <Bar dataKey="percentage1" fill="#789FC0" name="Consulting Rate">
                         <LabelList dataKey="percentage1" position="top" />
                       </Bar>
-                      <Bar
-                        dataKey="percentage2"
-                        fill="#324662"
-                        name="Consulting percentage"
-                      />
+                      <Bar dataKey="percentage2" fill="#324662" name="Consulting percentage" />
                     </BarChart>
                   </ResponsiveContainer>
                   {/* <canvas id="consulting-chart" width={600} height={300} /> */}
@@ -1025,9 +1000,8 @@ const IndustryDetails = () => {
                       >
                         <path d="M12.1223 3.1903C12.1631 3.23094 12.1954 3.27922 12.2174 3.33237C12.2395 3.38552 12.2508 3.4425 12.2508 3.50005C12.2508 3.5576 12.2395 3.61458 12.2174 3.66773C12.1954 3.72088 12.1631 3.76916 12.1223 3.8098L5.99731 9.9348C5.95667 9.97554 5.9084 10.0079 5.85524 10.0299C5.80209 10.052 5.74511 10.0633 5.68756 10.0633C5.63002 10.0633 5.57304 10.052 5.51988 10.0299C5.46673 10.0079 5.41845 9.97554 5.37781 9.9348L2.31531 6.8723C2.23316 6.79015 2.18701 6.67873 2.18701 6.56255C2.18701 6.44637 2.23316 6.33495 2.31531 6.2528C2.39747 6.17065 2.50889 6.1245 2.62506 6.1245C2.74124 6.1245 2.85266 6.17065 2.93481 6.2528L5.68756 9.00642L11.5028 3.1903C11.5435 3.14956 11.5917 3.11723 11.6449 3.09518C11.698 3.07312 11.755 3.06177 11.8126 3.06177C11.8701 3.06177 11.9271 3.07312 11.9802 3.09518C12.0334 3.11723 12.0817 3.14956 12.1223 3.1903Z" />
                       </svg>
-                      Real estate serves as a long-term investment option,
-                      allowing individuals and institutions to build wealth
-                      through property ownership.
+                      Real estate serves as a long-term investment option, allowing individuals and
+                      institutions to build wealth through property ownership.
                     </li>
                     <li>
                       <svg
@@ -1038,9 +1012,8 @@ const IndustryDetails = () => {
                       >
                         <path d="M12.1223 3.1903C12.1631 3.23094 12.1954 3.27922 12.2174 3.33237C12.2395 3.38552 12.2508 3.4425 12.2508 3.50005C12.2508 3.5576 12.2395 3.61458 12.2174 3.66773C12.1954 3.72088 12.1631 3.76916 12.1223 3.8098L5.99731 9.9348C5.95667 9.97554 5.9084 10.0079 5.85524 10.0299C5.80209 10.052 5.74511 10.0633 5.68756 10.0633C5.63002 10.0633 5.57304 10.052 5.51988 10.0299C5.46673 10.0079 5.41845 9.97554 5.37781 9.9348L2.31531 6.8723C2.23316 6.79015 2.18701 6.67873 2.18701 6.56255C2.18701 6.44637 2.23316 6.33495 2.31531 6.2528C2.39747 6.17065 2.50889 6.1245 2.62506 6.1245C2.74124 6.1245 2.85266 6.17065 2.93481 6.2528L5.68756 9.00642L11.5028 3.1903C11.5435 3.14956 11.5917 3.11723 11.6449 3.09518C11.698 3.07312 11.755 3.06177 11.8126 3.06177C11.8701 3.06177 11.9271 3.07312 11.9802 3.09518C12.0334 3.11723 12.0817 3.14956 12.1223 3.1903Z" />
                       </svg>
-                      Real estate enables homeowners to build equity over time,
-                      potentially leading to financial stability and wealth
-                      accumulation.
+                      Real estate enables homeowners to build equity over time, potentially leading
+                      to financial stability and wealth accumulation.
                     </li>
                     <li>
                       <svg
@@ -1051,9 +1024,8 @@ const IndustryDetails = () => {
                       >
                         <path d="M12.1223 3.1903C12.1631 3.23094 12.1954 3.27922 12.2174 3.33237C12.2395 3.38552 12.2508 3.4425 12.2508 3.50005C12.2508 3.5576 12.2395 3.61458 12.2174 3.66773C12.1954 3.72088 12.1631 3.76916 12.1223 3.8098L5.99731 9.9348C5.95667 9.97554 5.9084 10.0079 5.85524 10.0299C5.80209 10.052 5.74511 10.0633 5.68756 10.0633C5.63002 10.0633 5.57304 10.052 5.51988 10.0299C5.46673 10.0079 5.41845 9.97554 5.37781 9.9348L2.31531 6.8723C2.23316 6.79015 2.18701 6.67873 2.18701 6.56255C2.18701 6.44637 2.23316 6.33495 2.31531 6.2528C2.39747 6.17065 2.50889 6.1245 2.62506 6.1245C2.74124 6.1245 2.85266 6.17065 2.93481 6.2528L5.68756 9.00642L11.5028 3.1903C11.5435 3.14956 11.5917 3.11723 11.6449 3.09518C11.698 3.07312 11.755 3.06177 11.8126 3.06177C11.8701 3.06177 11.9271 3.07312 11.9802 3.09518C12.0334 3.11723 12.0817 3.14956 12.1223 3.1903Z" />
                       </svg>
-                      Real estate projects often involve the development of
-                      essential infrastructure such as roads, utilities, and
-                      public spaces.
+                      Real estate projects often involve the development of essential infrastructure
+                      such as roads, utilities, and public spaces.
                     </li>
                   </ul>
                 </div>
@@ -1097,7 +1069,9 @@ const IndustryDetails = () => {
                     <div className="content">
                       <div className="content-top">
                         <div className="number">
-                          <h2 className="counter"><CountUp delay={2} end={80} /></h2>
+                          <h2 className="counter">
+                            <CountUp delay={2} end={80} />
+                          </h2>
                           <span>%</span>
                         </div>
                         <span>Plus</span>
@@ -1121,7 +1095,9 @@ const IndustryDetails = () => {
                     <div className="content">
                       <div className="content-top">
                         <div className="number">
-                          <h2 className="counter"><CountUp delay={2} end={90} /></h2>
+                          <h2 className="counter">
+                            <CountUp delay={2} end={90} />
+                          </h2>
                           <span>%</span>
                         </div>
                         <span>Plus</span>
@@ -1144,8 +1120,8 @@ const IndustryDetails = () => {
                 <div className="section-title2">
                   <h2>Let’s Collaborate with Us!</h2>
                   <p>
-                    To provide more relevant information, it would be helpful to
-                    clarify the specific context or area.
+                    To provide more relevant information, it would be helpful to clarify the
+                    specific context or area.
                   </p>
                 </div>
                 <div className="client-area">
@@ -1153,32 +1129,6 @@ const IndustryDetails = () => {
                     <h3>90%</h3>
                     <span>Client Satisfaction</span>
                   </div>
-                  <a href="https://clutch.co/" className="review-area">
-                    <div className="review-name">
-                      <span>Review On</span>
-                      <img src="assets/img/home1/clutch-logo.svg" alt="" />
-                    </div>
-                    <div className="review">
-                      <ul>
-                        <li>
-                          <i className="bi bi-star-fill" />
-                        </li>
-                        <li>
-                          <i className="bi bi-star-fill" />
-                        </li>
-                        <li>
-                          <i className="bi bi-star-fill" />
-                        </li>
-                        <li>
-                          <i className="bi bi-star-fill" />
-                        </li>
-                        <li>
-                          <i className="bi bi-star-half" />
-                        </li>
-                      </ul>
-                      <span>(50 reviews)</span>
-                    </div>
-                  </a>
                 </div>
               </div>
             </div>

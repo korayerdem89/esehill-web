@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import CountUp from 'react-countup';
+import CountUp from "react-countup";
 const About = () => {
   return (
     <div className="about-section2 mb-130">
@@ -12,9 +12,8 @@ const About = () => {
                 <div className="section-title1 two white mb-50">
                   <span>About Us</span>
                   <h2>
-                    Business consulting is a professional service provided by
-                    individuals or firms to help organizations improve their
-                    performance, solve specific problems.
+                    Business consulting is a professional service provided by individuals or firms
+                    to help organizations improve their performance, solve specific problems.
                   </h2>
                 </div>
                 <Link legacyBehavior href="/about">
@@ -35,35 +34,6 @@ const About = () => {
                   </a>
                 </Link>
                 <div className="review-and-feature">
-                  <a href="https://clutch.co/" className="review-area white">
-                    <div className="review-name">
-                      <span>Review On</span>
-                      <img
-                        src="assets/img/home1/clutch-logo-white.svg"
-                        alt=""
-                      />
-                    </div>
-                    <div className="review">
-                      <ul>
-                        <li>
-                          <i className="bi bi-star-fill" />
-                        </li>
-                        <li>
-                          <i className="bi bi-star-fill" />
-                        </li>
-                        <li>
-                          <i className="bi bi-star-fill" />
-                        </li>
-                        <li>
-                          <i className="bi bi-star-fill" />
-                        </li>
-                        <li>
-                          <i className="bi bi-star-half" />
-                        </li>
-                      </ul>
-                      <span>(50 reviews)</span>
-                    </div>
-                  </a>
                   <ul className="features">
                     <li>Problem Solving</li>
                     <li>Determine Probelm</li>
@@ -124,7 +94,9 @@ const About = () => {
                     </div>
                     <div className="content">
                       <div className="number">
-                        <h2 className="counter"><CountUp delay={2} end={70} /></h2>
+                        <h2 className="counter">
+                          <CountUp delay={2} end={70} />
+                        </h2>
                         <span>+</span>
                       </div>
                       <p>Professional Experts</p>
@@ -145,7 +117,9 @@ const About = () => {
                     </div>
                     <div className="content">
                       <div className="number">
-                        <h2 className="counter"><CountUp delay={2} end={20} /></h2>
+                        <h2 className="counter">
+                          <CountUp delay={2} end={20} />
+                        </h2>
                         <span>+</span>
                       </div>
                       <p>Projects Complete</p>
@@ -164,7 +138,9 @@ const About = () => {
                     </div>
                     <div className="content">
                       <div className="number">
-                        <h2 className="counter"><CountUp delay={2} end={16} /></h2>
+                        <h2 className="counter">
+                          <CountUp delay={2} end={16} />
+                        </h2>
                         <span>+</span>
                       </div>
                       <p>World-wide Clients</p>
