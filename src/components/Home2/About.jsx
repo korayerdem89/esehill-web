@@ -1,7 +1,9 @@
 import Link from "next/link";
 import React from "react";
 import CountUp from "react-countup";
+import { useTranslation } from "next-i18next";
 const About = () => {
+  const { t } = useTranslation("about");
   return (
     <div className="about-section2 mb-130">
       <div className="about-top">
@@ -10,15 +12,12 @@ const About = () => {
             <div className="col-xxl-8 col-lg-7">
               <div className="about-content pr--95">
                 <div className="section-title1 two white mb-50">
-                  <span>About Us</span>
-                  <h2>
-                    Business consulting is a professional service provided by individuals or firms
-                    to help organizations improve their performance, solve specific problems.
-                  </h2>
+                  <span>{t("key-title-top")}</span>
+                  <h2>{t("description")}</h2>
                 </div>
                 <Link legacyBehavior href="/about">
                   <a className="primary-btn1 btn-hover">
-                    About More
+                    {t("button-text")}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={12}
@@ -35,9 +34,9 @@ const About = () => {
                 </Link>
                 <div className="review-and-feature">
                   <ul className="features">
-                    <li>Problem Solving</li>
-                    <li>Determine Probelm</li>
-                    <li>Cost-Efficiency</li>
+                    <li>{t("key-title1")}</li>
+                    <li>{t("key-title2")}</li>
+                    <li>{t("key-title3")}</li>
                   </ul>
                 </div>
               </div>
@@ -99,7 +98,7 @@ const About = () => {
                         </h2>
                         <span>+</span>
                       </div>
-                      <p>Professional Experts</p>
+                      <p>{t("consultant-service")}</p>
                     </div>
                   </li>
                   <li className="single-counter">
@@ -122,7 +121,7 @@ const About = () => {
                         </h2>
                         <span>+</span>
                       </div>
-                      <p>Projects Complete</p>
+                      <p>{t("project-complete")}</p>
                     </div>
                   </li>
                   <li className="single-counter">
@@ -143,7 +142,7 @@ const About = () => {
                         </h2>
                         <span>+</span>
                       </div>
-                      <p>World-wide Clients</p>
+                      <p>{t("worldwide-clients")}</p>
                     </div>
                   </li>
                 </ul>

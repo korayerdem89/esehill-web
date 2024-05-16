@@ -1,7 +1,11 @@
 {
-  "title": "Hakkımızda",
+  "key-title-top": "Hakkımızda",
   "description": "Biz, müşterilerimize en iyi hizmeti sunmak için çalışan uzman bir ekibiz.",
-  "mission": "Misyonumuz, müşterilerimizin ihtiyaçlarını anlamak ve onlara özelleştirilmiş çözümler sunmaktır.",
-  "vision": "Vizyonumuz, sektörümüzde lider ve güvenilir bir firma olmaktır.",
-  "values": ["Müşteri memnuniyeti", "Yenilikçilik", "Dürüstlük", "Takım çalışması"]
+  "key-title1": "Müşteri memnuniyeti",
+  "key-title2": "Profesyonel Kadro",
+  "key-title3": "Yenilikçilik",
+  "button-text": "Daha Fazla Bilgi",
+  "consultant-service": "Danışmanlık Hizmeti",
+  "project-complete": "Proje Tamamlama",
+  "worldwide-clients": "Dünya Çapında Müşteriler"
 }

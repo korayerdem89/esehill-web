@@ -48,9 +48,6 @@ const Home = () => {
       <Banner />
       <SolutionSection />
       <About />
-      <Testimonial />
-      <CoverSection />
-      <EventAndConfarance />
       <ProjectSection />
       <WhyChooseSection />
       <VideoArea />

@@ -956,7 +956,7 @@ body.tt-magic-cursor #magic-cursor {
 }
 
 .explore-btn {
-  color: var(--title-color);
+  color: var(--primary-color);
   font-family: var(--font-montserrat);
   font-size: 15px;
   font-weight: 500;
@@ -967,15 +967,17 @@ body.tt-magic-cursor #magic-cursor {
   white-space: nowrap;
 }
 .explore-btn svg {
-  fill: var(--title-color);
+  fill: var(--primary-color);
   transition: 0.35s;
 }
 .explore-btn:hover {
-  color: var(--primary-color);
+  color: var(--title-color);
+  scale: 1.1;
 }
 .explore-btn:hover svg {
   transform: rotate(45deg);
-  fill: var(--primary-color);
+  fill: var(--title-color);
+  scale: 1.1;
 }
 .explore-btn.two {
   border: 1px solid #eee;
@@ -2610,6 +2612,11 @@ body.tt-magic-cursor #magic-cursor {
   gap: 30px;
   transition: 0.35s;
 }
+
+.eg-card-2-text {
+  color: "red";
+}
+
 @media (max-width: 1499px) {
   .eg-card-2 {
     padding: 25px;
@@ -2662,6 +2669,11 @@ body.tt-magic-cursor #magic-cursor {
   line-height: 25px;
   margin-bottom: 0;
 }
+.eg-card-2:hover .content p,
+.eg-card-2:hover .content h5 {
+  color: var(--primary-color);
+}
+
 .eg-card-2:hover {
   border-color: var(--primary-color);
 }
@@ -2673,6 +2685,7 @@ body.tt-magic-cursor #magic-cursor {
   flex-direction: column;
   padding: 40px 25px;
   position: relative;
+  height: 100%;
 }
 @media (min-width: 1400px) and (max-width: 1599px) {
   .eg-card-2.style-2 {

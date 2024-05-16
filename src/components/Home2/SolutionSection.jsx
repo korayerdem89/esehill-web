@@ -1,28 +1,27 @@
 import Link from "next/link";
 import React from "react";
-
+import { useTranslation } from "next-i18next";
+import Image from "next/image";
 const SolutionSection = () => {
+  const { t } = useTranslation("solution");
   return (
     <div className="solution-section mb-130">
       <div className="container-fluid one">
         <div className="row g-4">
           <div className="col-lg-3 d-flex justify-content-lg-center">
             <div className="sub-title">
-              <span>Solution Approach</span>
+              <span>{t("key-title")}</span>
             </div>
           </div>
           <div className="col-lg-9">
             <div className="row">
               <div className="col-lg-12 gap-lg-5 gap-4 d-flex flex-lg-nowrap flex-wrap align-items-start justify-content-between mb-60">
                 <div className="section-title1 one">
-                  <h2>
-                    A structured and systematic approach to ensure you provide
-                    value.
-                  </h2>
+                  <h2>{t("title")}</h2>
                 </div>
                 <Link legacyBehavior href="/services1">
                   <a className="explore-btn">
-                    Explore Area
+                    {t("button-text")}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={12}
@@ -60,11 +59,8 @@ const SolutionSection = () => {
                         </svg>
                       </div>
                       <div className="content">
-                        <h5>Research and Analysis</h5>
-                        <p>
-                          Gather relevant information through interviews &amp;
-                          surveys.
-                        </p>
+                        <h5>{t("box-title1")}</h5>
+                        <p>{t("box-desc1")}</p>
                       </div>
                     </div>
                   </div>
@@ -84,10 +80,8 @@ const SolutionSection = () => {
                         </svg>
                       </div>
                       <div className="content">
-                        <h5>Development</h5>
-                        <p>
-                          Generate potential solutions or strategies to address.
-                        </p>
+                        <h5>{t("box-title2")}</h5>
+                        <p>{t("box-desc2")}</p>
                       </div>
                     </div>
                   </div>
@@ -110,11 +104,8 @@ const SolutionSection = () => {
                         </svg>
                       </div>
                       <div className="content">
-                        <h5>Management</h5>
-                        <p>
-                          Provide training and support to help the client's
-                          team.
-                        </p>
+                        <h5>{t("box-title3")}</h5>
+                        <p>{t("box-desc3")}</p>
                       </div>
                     </div>
                   </div>
@@ -136,10 +127,8 @@ const SolutionSection = () => {
                         </svg>
                       </div>
                       <div className="content">
-                        <h5>Monitoring</h5>
-                        <p>
-                          Generate potential solutions or strategies to address.
-                        </p>
+                        <h5>{t("box-title4")}</h5>
+                        <p>{t("box-desc4")}</p>
                       </div>
                     </div>
                   </div>
@@ -173,11 +162,8 @@ const SolutionSection = () => {
                         </svg>
                       </div>
                       <div className="content">
-                        <h5>Implementation</h5>
-                        <p>
-                          Develop a detailed plan outlining the steps,
-                          resources.
-                        </p>
+                        <h5>{t("box-title5")}</h5>
+                        <p>{t("box-desc5")}</p>
                       </div>
                     </div>
                   </div>
@@ -200,20 +186,30 @@ const SolutionSection = () => {
                         </svg>
                       </div>
                       <div className="content">
-                        <h5>Documentation</h5>
-                        <p>
-                          The consulting engagement, including reports,
-                          analysis.
-                        </p>
+                        <h5>{t("box-title6")}</h5>
+                        <p>{t("box-desc6")}</p>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="right-shape">
-                  <img src="assets/img/home2/shape-01.png" alt="" />
+                  <Image
+                    width={118}
+                    height={534}
+                    alt="column"
+                    src="/assets/img/home2/solution-column.png"
+                    style={{ objectFit: "contain", width: "118px" }}
+                  />
                 </div>
                 <div className="company-logo">
-                  <h2>APLOXN</h2>
+                  <Image
+                    width={49.5}
+                    height={51}
+                    alt="image"
+                    className="img-fluid"
+                    src="/assets/img/site-logo.svg"
+                    style={{ objectFit: "contain", width: "500px", opacity: 0.1 }}
+                  />
                 </div>
               </div>
             </div>
