@@ -1,10 +1,12 @@
 import React, { useMemo } from "react";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { useTranslation } from "next-i18next";
 import SwiperCore, { Autoplay, EffectFade, Navigation, Pagination } from "swiper";
 SwiperCore.use([Pagination, Autoplay, EffectFade, Navigation]);
 
 const Banner = () => {
+  const { t } = useTranslation("banner");
   const slideSetting = useMemo(() => {
     return {
       slidesPerView: 1,
@@ -37,11 +39,11 @@ const Banner = () => {
                 <div className="row g-lg-4 gy-5">
                   <div className="col-lg-7">
                     <div className="banner-left-content">
-                      <span>Real Estate</span>
-                      <h1>Unlocking Your Business's Potential With Innovate Consulting.</h1>
+                      <span>{t("key-title-top")}</span>
+                      <h1>{t("title1")}</h1>
                       <Link legacyBehavior href="/service-details">
                         <a className="primary-btn1 btn-hover">
-                          Explore More
+                          {t("contact-us")}
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width={12}
@@ -60,18 +62,10 @@ const Banner = () => {
                   </div>
                   <div className="col-lg-5 d-flex align-items-end">
                     <div className="banner-right-content pl--95">
-                      <h5>
-                        The primary goal of business consulting is to help organizations improve
-                        their performance, solve specific problems, and achieve their strategic
-                        objectives.
-                      </h5>
+                      <h5>{t("subtitle1")}</h5>
                       <ul className="btn-group">
-                        <li className="success-rate">
-                          Success Rate <span>90%</span>
-                        </li>
-                        <li>
-                          <a href="#">Determine Problem</a>
-                        </li>
+                        <li className="success-rate">{t("key-title1")}</li>
+                        <li className="success-rate">{t("key-title2")}</li>
                       </ul>
                     </div>
                   </div>
@@ -91,11 +85,11 @@ const Banner = () => {
                 <div className="row g-lg-4 gy-5">
                   <div className="col-lg-7">
                     <div className="banner-left-content">
-                      <span>Real Estate</span>
-                      <h1>Unlocking Your Business's Potential With Innovate Consulting.</h1>
+                      <span>{t("key-title-top2")}</span>
+                      <h1>{t("title2")}</h1>
                       <Link legacyBehavior href="/service-details">
                         <a className="primary-btn1 btn-hover">
-                          Explore More
+                          {t("contact-us")}
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width={12}
@@ -114,18 +108,10 @@ const Banner = () => {
                   </div>
                   <div className="col-lg-5 d-flex align-items-end">
                     <div className="banner-right-content pl--95">
-                      <h5>
-                        The primary goal of business consulting is to help organizations improve
-                        their performance, solve specific problems, and achieve their strategic
-                        objectives.
-                      </h5>
+                      <h5>{t("subtitle2")}</h5>
                       <ul className="btn-group">
-                        <li className="success-rate">
-                          Success Rate <span>90%</span>
-                        </li>
-                        <li>
-                          <a href="#">Determine Problem</a>
-                        </li>
+                        <li className="success-rate">{t("key-title1")}</li>
+                        <li className="success-rate">{t("key-title2")}</li>
                       </ul>
                     </div>
                   </div>
@@ -145,11 +131,11 @@ const Banner = () => {
                 <div className="row g-lg-4 gy-5">
                   <div className="col-lg-7">
                     <div className="banner-left-content">
-                      <span>Real Estate</span>
-                      <h1>Unlocking Your Business's Potential With Innovate Consulting.</h1>
+                      <span>{t("key-title-top3")}</span>
+                      <h1>{t("title3")}</h1>
                       <Link legacyBehavior href="/service-details">
                         <a className="primary-btn1 btn-hover">
-                          Explore More
+                          {t("contact-us")}
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width={12}
@@ -168,18 +154,10 @@ const Banner = () => {
                   </div>
                   <div className="col-lg-5 d-flex align-items-end">
                     <div className="banner-right-content pl--95">
-                      <h5>
-                        The primary goal of business consulting is to help organizations improve
-                        their performance, solve specific problems, and achieve their strategic
-                        objectives.
-                      </h5>
+                      <h5>{t("subtitle3")}</h5>
                       <ul className="btn-group">
-                        <li className="success-rate">
-                          Success Rate <span>90%</span>
-                        </li>
-                        <li>
-                          <a href="#">Determine Problem</a>
-                        </li>
+                        <li className="success-rate">{t("key-title1")}</li>
+                        <li className="success-rate">{t("key-title2")}</li>
                       </ul>
                     </div>
                   </div>
