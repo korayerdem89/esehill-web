@@ -2,20 +2,17 @@
   {
     "id": "1",
     "label": "home",
-    "link": "/",
-    "icon": false
+    "link": "/"
   },
   {
     "id": "services",
     "label": "services",
-    "link": "#",
-    "icon": true
+    "link": "#"
   },
   {
     "id": "3",
     "label": "about-us",
     "link": "#",
-    "icon": true,
     "subMenu": [
       {
         "id": "1",
@@ -54,7 +51,6 @@
         "id": "4",
         "label": "Our People",
         "link": "/our-people1",
-        "icon": true,
         "subMenu": [
           {
             "id": "1",
@@ -87,7 +83,6 @@
         "id": "5",
         "label": "News & Insight",
         "link": "/blog-standard",
-        "icon": true,
         "subMenu": [
           {
             "id": "1",
@@ -110,7 +105,6 @@
         "id": "6",
         "label": "Event",
         "link": "/event",
-        "icon": true,
         "subMenu": [
           {
             "id": "1",
@@ -155,7 +149,6 @@
     "id": "4",
     "label": "contact",
     "link": "#",
-    "icon": true,
     "subMenu": [
       {
         "id": "1",
