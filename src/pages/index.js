@@ -49,9 +49,6 @@ const Home = () => {
       <SolutionSection />
       <About />
       <ProjectSection />
-      <WhyChooseSection />
-      <VideoArea />
-      <PeopleSection />
       <ClientSection />
       <Blog />
       <Contact />

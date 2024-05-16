@@ -1,10 +1,12 @@
 import React, { useMemo } from "react";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { useTranslation } from "next-i18next";
 import SwiperCore, { Autoplay, EffectFade, Navigation, Pagination } from "swiper";
 SwiperCore.use([Pagination, Autoplay, EffectFade, Navigation]);
 
 const ProjectSection = () => {
+  const { t } = useTranslation("project");
   const slideSetting = useMemo(() => {
     return {
       slidesPerView: "auto",
@@ -46,12 +48,12 @@ const ProjectSection = () => {
         <div className="row g-4">
           <div className="col-lg-12 pl--95 gap-lg-5 gap-4 d-flex flex-lg-nowrap flex-wrap align-items-start justify-content-between mb-60">
             <div className="section-title1 one">
-              <span>Cover Portfolio </span>
-              <h2>Conduct market research to understand industry competition.</h2>
+              <span>{t("key-title-top")}</span>
+              <h2>{t("description")}</h2>
             </div>
             <Link legacyBehavior href="/portfolio-three-column-tab">
               <a className="explore-btn">
-                Explore Portfolio
+                {t("explore-text")}
                 <svg xmlns="http://www.w3.org/2000/svg" width={12} height={12} viewBox="0 0 12 12">
                   <path
                     fillRule="evenodd"
@@ -74,18 +76,18 @@ const ProjectSection = () => {
                       <div className="category-title">
                         <div className="category">
                           <Link legacyBehavior href="/portfolio-two-column">
-                            <a>Technology</a>
+                            <a>{t("project1-title")}</a>
                           </Link>
                         </div>
                         <h4>
                           <Link legacyBehavior href="/portfolio-details">
-                            <a>Information Technology (IT)</a>
+                            <a>{t("project1")}</a>
                           </Link>
                         </h4>
                       </div>
                       <Link legacyBehavior href="/portfolio-details">
                         <a className="explore-btn">
-                          Explore More
+                          {t("explore-project")}
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width={12}
@@ -112,18 +114,18 @@ const ProjectSection = () => {
                       <div className="category-title">
                         <div className="category">
                           <Link legacyBehavior href="/portfolio-two-column">
-                            <a>Business</a>
+                            <a>{t("project2-title")}</a>
                           </Link>
                         </div>
                         <h4>
                           <Link legacyBehavior href="/portfolio-details">
-                            <a>International Business</a>
+                            <a>{t("project2")}</a>
                           </Link>
                         </h4>
                       </div>
                       <Link legacyBehavior href="/portfolio-details">
                         <a className="explore-btn">
-                          Explore More
+                          {t("explore-project")}
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width={12}
@@ -150,18 +152,18 @@ const ProjectSection = () => {
                       <div className="category-title">
                         <div className="category">
                           <Link legacyBehavior href="/portfolio-two-column">
-                            <a>Marketing</a>
+                            <a>{t("project3-title")}</a>
                           </Link>
                         </div>
                         <h4>
                           <Link legacyBehavior href="/portfolio-details">
-                            <a>Marketing Research</a>
+                            <a>{t("project3")}</a>
                           </Link>
                         </h4>
                       </div>
                       <Link legacyBehavior href="/portfolio-details">
                         <a className="explore-btn">
-                          Explore More
+                          {t("explore-project")}
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width={12}
@@ -188,18 +190,18 @@ const ProjectSection = () => {
                       <div className="category-title">
                         <div className="category">
                           <Link legacyBehavior href="/portfolio-two-column">
-                            <a>Business</a>
+                            <a>{t("project4-title")}</a>
                           </Link>
                         </div>
                         <h4>
                           <Link legacyBehavior href="/portfolio-details">
-                            <a>Human Resources</a>
+                            <a>{t("project4")}</a>
                           </Link>
                         </h4>
                       </div>
                       <Link legacyBehavior href="/portfolio-details">
                         <a className="explore-btn">
-                          Explore More
+                          {t("explore-project")}
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width={12}
@@ -226,18 +228,18 @@ const ProjectSection = () => {
                       <div className="category-title">
                         <div className="category">
                           <Link legacyBehavior href="/portfolio-two-column">
-                            <a>Consulting</a>
+                            <a>{t("project5-title")}</a>
                           </Link>
                         </div>
                         <h4>
                           <Link legacyBehavior href="/portfolio-details">
-                            <a>Finance Consulting</a>
+                            <a>{t("project5")}</a>
                           </Link>
                         </h4>
                       </div>
                       <Link legacyBehavior href="/portfolio-details">
                         <a className="explore-btn">
-                          Explore More
+                          {t("explore-project")}
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width={12}
@@ -264,18 +266,18 @@ const ProjectSection = () => {
                       <div className="category-title">
                         <div className="category">
                           <Link legacyBehavior href="/portfolio-two-column">
-                            <a>Technology</a>
+                            <a>{t("project6-title")}</a>
                           </Link>
                         </div>
                         <h4>
                           <Link legacyBehavior href="/portfolio-details">
-                            <a>Information Technology (IT)</a>
+                            <a>{t("project6")}</a>
                           </Link>
                         </h4>
                       </div>
                       <Link legacyBehavior href="/portfolio-details">
                         <a className="explore-btn">
-                          Explore More
+                          {t("explore-project")}
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width={12}

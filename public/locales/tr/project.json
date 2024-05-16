@@ -1,30 +1,18 @@
 {
-  "title": "Projelerimiz",
-  "description": "Başarıyla tamamladığımız projelerden bazı örnekler.",
-  "projects": [
-    {
-      "id": 1,
-      "title": "E-ticaret Platformu",
-      "description": "XYZ şirketi için kullanıcı dostu ve ölçeklenebilir bir e-ticaret platformu geliştirdik.",
-      "image": "project1.jpg",
-      "client": "XYZ Company",
-      "year": 2022
-    },
-    {
-      "id": 2,
-      "title": "Mobil Uygulama",
-      "description": "ABC firması için müşteri etkileşimini artıran bir mobil uygulama tasarladık ve geliştirdik.",
-      "image": "project2.jpg",
-      "client": "ABC Inc.",
-      "year": 2021
-    },
-    {
-      "id": 3,
-      "title": "Veri Analizi Platformu",
-      "description": "123 şirketi için gerçek zamanlı veri analizi sağlayan bir platform oluşturduk.",
-      "image": "project3.jpg",
-      "client": "123 Corporation",
-      "year": 2023
-    }
-  ]
+  "key-title-top": "Hizmetlerimiz",
+  "description": "Geleceğinizi Birlikte Planlıyoruz",
+  "explore-text": "Hizmetlere Gözat",
+  "explore-project": "Gözat",
+  "project1": "Yenilenebilir Enerji",
+  "project1-title": "Enerji",
+  "project2": "Yatırım Danışmanlığı",
+  "project2-title": "Yatırım",
+  "project3": "Finans",
+  "project3-title": "Finans",
+  "project4": "Gayrimenkul",
+  "project4-title": "Emlak",
+  "project5": "Dijital Dönüşüm",
+  "project5-title": "Teknoloji",
+  "project6": "Meyve-Sebze",
+  "project6-title": "Ticaret"
 }
