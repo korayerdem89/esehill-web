@@ -158,7 +158,7 @@ const Header2 = () => {
                   <li key={id} className={currentRoute === link ? "active" : ""}>
                     <Link legacyBehavior href={link}>
                       <a className={`drop-down ${state.activeMenu === label ? "active" : ""}`}>
-                        {label}
+                        {t(label)}
                       </a>
                     </Link>
                     {icon && (
@@ -231,7 +231,7 @@ const Header2 = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="tel:+9165678653">
+                  <a href={`tel:${t("phone")}`}>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={14}
@@ -248,65 +248,8 @@ const Header2 = () => {
               </ul>
             </div>
           </div>
-          <div className="nav-right d-flex jsutify-content-end align-items-center">
-            <div className="search-bar d-xl-flex d-none">
-              <div className="search-btn" onClick={toggleSearchBar}>
-                <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16">
-                  <g>
-                    <path d="M11.742 10.344C12.7103 9.02267 13.144 7.38447 12.9563 5.75713C12.7686 4.12979 11.9734 2.63332 10.7297 1.56711C9.4861 0.500899 7.88573 -0.056418 6.24882 0.00665514C4.61191 0.0697283 3.05917 0.748541 1.90125 1.90729C0.743334 3.06603 0.0656328 4.61926 0.00373101 6.25621C-0.0581708 7.89317 0.500292 9.49314 1.56739 10.736C2.63449 11.9789 4.13153 12.773 5.759 12.9596C7.38648 13.1461 9.02436 12.7112 10.345 11.742H10.344C10.374 11.782 10.406 11.82 10.442 11.857L14.292 15.707C14.4795 15.8946 14.7339 16.0001 14.9991 16.0002C15.2644 16.0003 15.5188 15.895 15.7065 15.7075C15.8941 15.52 15.9996 15.2656 15.9997 15.0003C15.9998 14.7351 15.8945 14.4806 15.707 14.293L11.857 10.443C11.8212 10.4068 11.7828 10.3744 11.742 10.344ZM12 6.49998C12 7.22225 11.8577 7.93745 11.5813 8.60474C11.3049 9.27203 10.8998 9.87834 10.3891 10.3891C9.87835 10.8998 9.27203 11.3049 8.60474 11.5813C7.93745 11.8577 7.22225 12 6.49998 12C5.77771 12 5.06251 11.8577 4.39522 11.5813C3.72793 11.3049 3.12162 10.8998 2.61089 10.3891C2.10017 9.87834 1.69505 9.27203 1.41864 8.60474C1.14224 7.93745 0.999982 7.22225 0.999982 6.49998C0.999982 5.04129 1.57945 3.64234 2.6109 2.61089C3.64235 1.57944 5.04129 0.999979 6.49998 0.999979C7.95867 0.999979 9.35762 1.57944 10.3891 2.61089C11.4205 3.64234 12 5.04129 12 6.49998Z" />
-                  </g>
-                </svg>
-              </div>
-              <div className={`search-input ${state.isSearchBarOpen ? "active" : ""}`}>
-                <div className="serch-close" onClick={toggleSearchBar} />
-                <form>
-                  <div className="search-group">
-                    <div className="form-inner2">
-                      <input type="text" placeholder="Enter your keywords" />
-                      <button type="submit">
-                        <i className="bx bx-search" />
-                      </button>
-                    </div>
-                  </div>
-                  <div className="quick-search">
-                    <ul>
-                      <li>Quick Search :</li>
-                      <li>
-                        <Link legacyBehavior href="/service">
-                          <a>Technology,</a>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link legacyBehavior href="/service">
-                          <a>Finance consulting,</a>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link legacyBehavior href="/service">
-                          <a>Human Resources,</a>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link legacyBehavior href="/service">
-                          <a>Management,</a>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link legacyBehavior href="/service">
-                          <a>Marketing Research,</a>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link legacyBehavior href="/service-details">
-                          <a> International Business.</a>
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                </form>
-              </div>
-            </div>
-            <div className="search-bar d-xl-flex d-none">
+          <div className="nav-right d-flex justify-content-end align-items-center">
+            <div className="search-bar d-lg-flex d-none">
               <div className="lang-btn" onClick={toggleLang}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

@@ -1,38 +1,13 @@
 {
   "careers": "Kariyer",
   "join-us": "Bize Katılın",
+  "home": "Anasayfa",
+  "services": "Hizmetler",
+  "about-us": "Hakkımızda",
+  "contact": "İletişim",
+  "press": "Basında Biz",
   "work-hours": "Pzt - Cmt 9:00 - 17:00",
   "phone": "+90 850 888 0 373",
   "get-in-touch": "Bize Ulaşın",
-  "navigation": [
-    {
-      "label": "Ana Sayfa",
-      "link": "/"
-    },
-    {
-      "label": "Hizmetler",
-      "link": "/services"
-    },
-    {
-      "label": "Sayfalar",
-      "link": "/pages"
-    },
-    {
-      "label": "Portföy",
-      "link": "/portfolio"
-    },
-    {
-      "label": "İletişim",
-      "link": "/contact"
-    }
-  ],
-  "cta": {
-    "label": "Bize Ulaşın",
-    "link": "/"
-  },
-  "language": {
-    "en": "English",
-    "tr": "Türkçe",
-    "nl": "Dutch"
-  }
+  "address": "Koşuyolu Mah. Mh. Mh. 34718 Kadıköy/İstanbul"
 }
