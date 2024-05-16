@@ -1290,6 +1290,10 @@ body.tt-magic-cursor #magic-cursor {
   background-color: transparent;
   padding: 0;
 }
+.header-area.style-2 .menu-wrap .language-text {
+  color: var(--primary-color);
+  margin-left: 4px;
+}
 .header-area.style-2 .menu-wrap .nav-right {
   gap: 30px;
 }

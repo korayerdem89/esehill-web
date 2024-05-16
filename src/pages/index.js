@@ -1,6 +1,6 @@
 import React from "react";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import Header2 from "../components/header/Header2";
+import Header from "../components/header/Header";
 import Banner from "../components/Home2/Banner";
 import SolutionSection from "../components/Home2/SolutionSection";
 import About from "../components/Home2/About";
@@ -44,7 +44,7 @@ export async function getStaticProps({ locale }) {
 const Home = () => {
   return (
     <>
-      <Header2 />
+      <Header />
       <Banner />
       <SolutionSection />
       <About />
