@@ -123,6 +123,7 @@ const Header2 = () => {
           <Link legacyBehavior href="/">
             <a>
               <Image
+                priority
                 width={49.5}
                 height={51}
                 alt="image"
@@ -139,7 +140,13 @@ const Header2 = () => {
               <div className="mobile-logo-wrap">
                 <Link legacyBehavior href="/">
                   <a>
-                    <Image width={49.5} height={52} alt="image" src="/assets/img/site-logo.svg" />
+                    <Image
+                      priority
+                      width={49.5}
+                      height={52}
+                      alt="image"
+                      src="/assets/img/site-logo.svg"
+                    />
                   </a>
                 </Link>
               </div>
