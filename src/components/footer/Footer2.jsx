@@ -153,6 +153,20 @@ const Footer2 = () => {
                             <a>{t("list3-2")}</a>
                           </Link>
                         </li>
+                        <li className="d-flex gap-4 mt-5">
+                          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                            <i className="fab fa-twitter fa-lg"></i>
+                          </a>
+                          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                            <i className="fab fa-facebook fa-lg"></i>
+                          </a>
+                          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                            <i className="fab fa-linkedin fa-lg"></i>
+                          </a>
+                          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+                            <i className="fab fa-youtube fa-lg"></i>
+                          </a>
+                        </li>
                       </ul>
                     </div>
                   </div>
