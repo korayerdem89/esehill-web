@@ -737,6 +737,7 @@ body.tt-magic-cursor #magic-cursor {
 .container-fluid.pl--120 {
   padding-left: 120px;
 }
+
 @media (min-width: 1400px) and (max-width: 1599px) {
   .container-fluid.pl--120 {
     padding-left: 50px;
@@ -775,6 +776,7 @@ body.tt-magic-cursor #magic-cursor {
   width: 100%;
   gap: 25px;
 }
+
 @media (max-width: 991px) {
   .section-title1 {
     flex-wrap: wrap;
@@ -799,6 +801,7 @@ body.tt-magic-cursor #magic-cursor {
   padding: 7px 20px;
   white-space: nowrap;
 }
+
 .section-title1 h2 {
   color: var(--title-color);
   font-family: var(--font-marcellus);
@@ -808,6 +811,7 @@ body.tt-magic-cursor #magic-cursor {
   max-width: 740px;
   margin-top: -10px;
 }
+
 @media (max-width: 1199px) {
   .section-title1 h2 {
     font-size: 30px;
@@ -5521,10 +5525,27 @@ footer .footer-btm .social-area li a:hover i {
 /*=====================================
  26. Home2 Clint Section
 ========================================*/
+
 .client-section .client-logo-wrap {
   background: #f4f9fd;
   display: flex;
   padding: 80px;
+}
+.client-section h2 {
+  color: var(--title-color);
+  font-family: var(--font-marcellus);
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 2%;
+  padding-left: 90px;
+}
+
+@media (max-width: 1199px) {
+  .client-section h2 {
+    font-size: 30px;
+
+    padding-left: 0px;
+  }
 }
 @media (max-width: 1199px) {
   .client-section .client-logo-wrap {

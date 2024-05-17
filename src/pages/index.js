@@ -4,15 +4,9 @@ import Header from "../components/header/Header";
 import Banner from "../components/Home2/Banner";
 import SolutionSection from "../components/Home2/SolutionSection";
 import About from "../components/Home2/About";
-import Testimonial from "../components/Home2/Testimonial";
-import CoverSection from "../components/Home2/CoverSection";
-import EventAndConfarance from "../components/Home2/EventAndConfarance";
 import ProjectSection from "../components/Home2/ProjectSection";
-import WhyChooseSection from "../components/Home2/WhyChooseSection";
-import VideoArea from "../components/Home2/VideoArea";
-import PeopleSection from "../components/Home2/PeopleSection";
 import ClientSection from "../components/Home2/ClientSection";
-import Blog from "../components/Home2/Blog";
+import Brands from "../components/Home2/Brands";
 import Contact from "../components/Home2/Contact";
 import Footer2 from "../components/footer/Footer2";
 
@@ -33,7 +27,7 @@ export async function getStaticProps({ locale }) {
         "video",
         "people",
         "client",
-        "blog",
+        "brands",
         "contact",
         "footer",
       ])),
@@ -50,7 +44,7 @@ const Home = () => {
       <About />
       <ProjectSection />
       <ClientSection />
-      <Blog />
+      <Brands />
       <Contact />
       <Footer2 />
     </>
