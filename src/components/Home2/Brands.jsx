@@ -32,17 +32,17 @@ const Brands = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 blog-wrap">
                 <div className="blog-card2">
                   <div className="blog-img magnetic-item">
-                    <img src="assets/img/home2/blog-img-01.jpg" alt="" />
+                    <img src="assets/img/home2/brands/6.png" alt="" />
                   </div>
                   <div className="blog-content">
                     <h4>
                       <Link legacyBehavior href="/blog-details">
-                        <a>Consulting Industry Adapts to the Changing Business Landscape.</a>
+                        <a>{t("brand1-desc")}</a>
                       </Link>
                     </h4>
                     <Link legacyBehavior href="/blog-details">
                       <a className="explore-btn">
-                        Read More
+                        {t("read-more")}
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width={12}
@@ -63,19 +63,17 @@ const Brands = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 blog-wrap">
                 <div className="blog-card2">
                   <div className="blog-img magnetic-item">
-                    <img src="assets/img/home2/blog-img-03.jpg" alt="" />
+                    <img src="assets/img/home2/brands/2.png" alt="" />
                   </div>
                   <div className="blog-content">
                     <h4>
                       <Link legacyBehavior href="/blog-details">
-                        <a>
-                          Tech-Driven Disruption: How Consulting Firms Are Embracing Innovation.
-                        </a>
+                        <a>{t("brand2-desc")}</a>
                       </Link>
                     </h4>
                     <Link legacyBehavior href="/blog-details">
                       <a className="explore-btn">
-                        Read More
+                        {t("read-more")}
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width={12}
@@ -96,17 +94,17 @@ const Brands = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 blog-wrap">
                 <div className="blog-card2">
                   <div className="blog-img magnetic-item">
-                    <img src="assets/img/home2/blog-img-02.jpg" alt="" />
+                    <img src="assets/img/home2/brands/3.png" alt="" />
                   </div>
                   <div className="blog-content">
                     <h4>
                       <Link legacyBehavior href="/blog-details">
-                        <a>The Future of Strategy Consulting: Insights from Industry Leaders.</a>
+                        <a>{t("brand3-desc")}</a>
                       </Link>
                     </h4>
                     <Link legacyBehavior href="/blog-details">
                       <a className="explore-btn">
-                        Read More
+                        {t("read-more")}
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width={12}
@@ -127,17 +125,17 @@ const Brands = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 blog-wrap">
                 <div className="blog-card2">
                   <div className="blog-img magnetic-item">
-                    <img src="assets/img/home2/blog-img-04.jpg" alt="" />
+                    <img src="assets/img/home2/brands/7.png" alt="" />
                   </div>
                   <div className="blog-content">
                     <h4>
                       <Link legacyBehavior href="/blog-details">
-                        <a>The Role of AI and Data Analytics in Modern Consulting.</a>
+                        <a>{t("brand4-desc")}</a>
                       </Link>
                     </h4>
                     <Link legacyBehavior href="/blog-details">
                       <a className="explore-btn">
-                        Read More
+                        {t("read-more")}
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width={12}
