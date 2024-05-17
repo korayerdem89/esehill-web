@@ -71,20 +71,8 @@ const Header = () => {
 
   return (
     <div className="header-topbar-area">
-      {/* Start Top Bar section */}
       <div className="topbar-area style-2">
-        <ul className="topbar-left">
-          <li>
-            <Link legacyBehavior href="/career">
-              <a>{t("careers")}</a>
-            </Link>
-          </li>
-          <li>
-            <Link legacyBehavior href="/contact">
-              <a>{t("join-us")}</a>
-            </Link>
-          </li>
-        </ul>
+        <div className="topbar-left" />
         <ul className="topbar-right">
           <li>{t("work-hours")}</li>
           <li>

@@ -1,55 +1,15 @@
 {
-  "description": "İşletmenizin başarısı için buradayız.",
-  "contact": {
-    "address": "Örnek Mahalle, Örnek Cadde, No: 123, Örnek Şehir",
-    "phone": "+90 123 456 78 90",
-    "email": "info@example.com"
-  },
-  "links": [
-    {
-      "title": "Ana Sayfa",
-      "url": "/"
-    },
-    {
-      "title": "Hakkımızda",
-      "url": "/about"
-    },
-    {
-      "title": "Hizmetlerimiz",
-      "url": "/services"
-    },
-    {
-      "title": "Blog",
-      "url": "/blog"
-    },
-    {
-      "title": "İletişim",
-      "url": "/contact"
-    }
-  ],
-  "social": [
-    {
-      "platform": "Facebook",
-      "url": "https://www.facebook.com/examplecompany"
-    },
-    {
-      "platform": "Twitter",
-      "url": "https://www.twitter.com/examplecompany"
-    },
-    {
-      "platform": "LinkedIn",
-      "url": "https://www.linkedin.com/company/examplecompany"
-    },
-    {
-      "platform": "Instagram",
-      "url": "https://www.instagram.com/examplecompany"
-    }
-  ],
-  "subscribe": {
-    "title": "Bültenimize Abone Olun",
-    "description": "En son haberler, güncellemeler ve teklifler için e-posta listemize kaydolun.",
-    "placeholder": "E-posta adresinizi girin",
-    "buttonText": "Abone Ol"
-  },
-  "copyright": "© 2023 Örnek Şirket. Tüm hakları saklıdır."
+  "title1": "Hakkımızda",
+  "title2": "Hizmetlerimiz",
+  "title3": "Diğer Linkler",
+  "list1-1": "Kurumsal",
+  "list1-2": "Markalarımız",
+  "list2-1": "Yenilenebilir Enerji",
+  "list2-2": "Yatırım Danışmanlığı",
+  "list2-3": "Finans",
+  "list2-4": "Gayrimenkul",
+  "list2-5": "Dijital Dönüşüm",
+  "list2-6": "Meyve - Sebze",
+  "list3-1": "Basında Biz",
+  "list3-2": "Etkinlik ve Konferanslar"
 }

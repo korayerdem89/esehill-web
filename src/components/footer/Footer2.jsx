@@ -1,7 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-
+import { useTranslation } from "next-i18next";
 const Footer2 = () => {
+  const { t } = useTranslation("footer");
+
   return (
     <footer>
       <div className="container-fluid one">
@@ -75,38 +77,18 @@ const Footer2 = () => {
                 <div className="col-lg-3 col-md-4 d-flex justify-content-lg-center justify-content-md-end">
                   <div className="footer-widget">
                     <div className="widget-title">
-                      <h3>About Us</h3>
+                      <h3>{t("title1")}</h3>
                     </div>
                     <div className="menu-container">
                       <ul>
                         <li>
                           <Link legacyBehavior href="/about">
-                            <a>Our Story</a>
+                            <a>{t("list1-1")}</a>
                           </Link>
                         </li>
                         <li>
                           <Link legacyBehavior href="/contact">
-                            <a>Contact Us</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link legacyBehavior href="/faq">
-                            <a>FAQ’s</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link legacyBehavior href="/our-people1">
-                            <a>Our Consultants</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link legacyBehavior href="/career">
-                            <a>Careers</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link legacyBehavior href="/case-study1">
-                            <a>Case Study</a>
+                            <a>{t("list1-2")}</a>
                           </Link>
                         </li>
                       </ul>
@@ -116,43 +98,38 @@ const Footer2 = () => {
                 <div className="col-lg-3 col-md-6 d-flex justify-content-lg-center">
                   <div className="footer-widget">
                     <div className="widget-title">
-                      <h3>Industries</h3>
+                      <h3>{t("title2")}</h3>
                     </div>
                     <div className="menu-container">
                       <ul>
                         <li>
                           <Link legacyBehavior href="/industry-details">
-                            <a>Real Estate</a>
+                            <a>{t("list2-1")}</a>
                           </Link>
                         </li>
                         <li>
                           <Link legacyBehavior href="/industry-details">
-                            <a>Construction</a>
+                            <a>{t("list2-2")}</a>
                           </Link>
                         </li>
                         <li>
                           <Link legacyBehavior href="/industry-details">
-                            <a>Health Care</a>
+                            <a>{t("list2-3")}</a>
                           </Link>
                         </li>
                         <li>
                           <Link legacyBehavior href="/industry-details">
-                            <a>Finnace Service</a>
+                            <a>{t("list2-4")}</a>
                           </Link>
                         </li>
                         <li>
                           <Link legacyBehavior href="/industry-details">
-                            <a>Dealership</a>
+                            <a>{t("list2-5")}</a>
                           </Link>
                         </li>
                         <li>
                           <Link legacyBehavior href="/industry-details">
-                            <a>Low Firm Service</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link legacyBehavior href="/industry-details">
-                            <a>Family Business</a>
+                            <a>{t("list2-6")}</a>
                           </Link>
                         </li>
                       </ul>
@@ -162,185 +139,25 @@ const Footer2 = () => {
                 <div className="col-lg-2 col-md-6 d-flex justify-content-md-end">
                   <div className="footer-widget">
                     <div className="widget-title">
-                      <h3>Legelity</h3>
+                      <h3>{t("title3")}</h3>
                     </div>
                     <div className="menu-container">
                       <ul>
                         <li>
                           <Link legacyBehavior href="/terms-conditions">
-                            <a>Privacy &amp; Policy</a>
+                            <a>{t("list3-1")}</a>
                           </Link>
                         </li>
                         <li>
                           <Link legacyBehavior href="/terms-conditions">
-                            <a>Terms &amp; Condition</a>
+                            <a>{t("list3-2")}</a>
                           </Link>
-                        </li>
-                        <li>
-                          <a href="#">Cookie Policy</a>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div className="col-lg-12">
-            <div className="footer-menu-wrap">
-              <div className="footer-logo">
-                <Link legacyBehavior href="/">
-                  <a>
-                    <img src="/assets/img/footer-logo.svg" alt="footer-logo" />
-                  </a>
-                </Link>
-              </div>
-              <ul className="footer-menu">
-                <li>
-                  <Link legacyBehavior href="/services1">
-                    <a>
-                      International Business
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={10}
-                        height={10}
-                        viewBox="0 0 10 10"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          clipRule="evenodd"
-                          d="M8.48878 0.885308L0 9.37364L0.626356 10L9.11469 1.51122V7.38037H10V0H2.61963V0.885308H8.48878Z"
-                        />
-                      </svg>
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link legacyBehavior href="/services1">
-                    <a>
-                      Marketing Research
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={10}
-                        height={10}
-                        viewBox="0 0 10 10"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          clipRule="evenodd"
-                          d="M8.48878 0.885308L0 9.37364L0.626356 10L9.11469 1.51122V7.38037H10V0H2.61963V0.885308H8.48878Z"
-                        />
-                      </svg>
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link legacyBehavior href="/services1">
-                    <a>
-                      Finance Consulting
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={10}
-                        height={10}
-                        viewBox="0 0 10 10"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          clipRule="evenodd"
-                          d="M8.48878 0.885308L0 9.37364L0.626356 10L9.11469 1.51122V7.38037H10V0H2.61963V0.885308H8.48878Z"
-                        />
-                      </svg>
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link legacyBehavior href="/services1">
-                    <a>
-                      Human Resources
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={10}
-                        height={10}
-                        viewBox="0 0 10 10"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          clipRule="evenodd"
-                          d="M8.48878 0.885308L0 9.37364L0.626356 10L9.11469 1.51122V7.38037H10V0H2.61963V0.885308H8.48878Z"
-                        />
-                      </svg>
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link legacyBehavior href="/services1">
-                    <a>
-                      Technology
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={10}
-                        height={10}
-                        viewBox="0 0 10 10"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          clipRule="evenodd"
-                          d="M8.48878 0.885308L0 9.37364L0.626356 10L9.11469 1.51122V7.38037H10V0H2.61963V0.885308H8.48878Z"
-                        />
-                      </svg>
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link legacyBehavior href="/services1">
-                    <a>
-                      Start-up
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={10}
-                        height={10}
-                        viewBox="0 0 10 10"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          clipRule="evenodd"
-                          d="M8.48878 0.885308L0 9.37364L0.626356 10L9.11469 1.51122V7.38037H10V0H2.61963V0.885308H8.48878Z"
-                        />
-                      </svg>
-                    </a>
-                  </Link>
-                </li>
-              </ul>
-            </div>
-            <div className="footer-btm">
-              <div className="copyright-area">
-                <p>
-                  Copyright 2023 <a href="#">Aploxn</a> | Design By{" "}
-                  <a href="https://www.egenslab.com/">Egens Lab</a>
-                </p>
-              </div>
-              <ul className="social-area">
-                <li>
-                  <a href="https://www.facebook.com/">
-                    <i className="bx bxl-facebook" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/">
-                    <i className="bx bxl-twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/">
-                    <i className="bx bxl-linkedin" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/">
-                    <i className="bx bxl-instagram-alt" />
-                  </a>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
