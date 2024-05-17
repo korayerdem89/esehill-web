@@ -1,14 +1,15 @@
 import Link from "next/link";
 import React from "react";
-
+import { useTranslation } from "next-i18next";
 const Contact = () => {
+  const { t } = useTranslation("contact");
   return (
     <div className="contact-section2">
       <div className="container-fluid one pl--95">
         <div className="row g-4">
           <div className="col-lg-6 d-flex align-items-center">
             <div className="contact-content">
-              <h2>Let’s Collaboration with Our Team!</h2>
+              <h2>{t("title")}</h2>
             </div>
           </div>
           <div className="col-lg-6 d-flex align-items-center justify-content-lg-center">
@@ -42,7 +43,7 @@ const Contact = () => {
                         d="M10.1865 1.06237L0 11.2484L0.751627 12L10.9376 1.81347V8.85645H12V0H3.14355V1.06237H10.1865Z"
                       />
                     </svg>{" "}
-                    <br /> Contact Us <br /> Now
+                    {t("button-text")}
                   </div>
                 </a>
               </Link>
