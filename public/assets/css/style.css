@@ -3614,6 +3614,19 @@ footer .footer-widget .subscribed-area h2 {
   font-weight: 400;
   margin-bottom: 30px;
 }
+@media (max-width: 767px) {
+  footer {
+    padding-top: 0px;
+  }
+  footer .footer-widget {
+    padding-left: 50px;
+  }
+}
+@media (max-width: 1110px) {
+  footer {
+    padding-right: 30px;
+  }
+}
 @media (max-width: 1499px) {
   footer .footer-widget .subscribed-area h2 {
     font-size: 30px;

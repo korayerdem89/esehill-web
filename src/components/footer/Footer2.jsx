@@ -13,7 +13,7 @@ const Footer2 = () => {
               <div className="row g-lg-4 gy-5">
                 <div className="col-lg-4  col-md-8 d-flex justify-content-lg-start">
                   <div className="footer-widget">
-                    <div style={{ marginLeft: "120px" }}>
+                    <div className="ms-5 d-none d-md-block">
                       <Link legacyBehavior href="/">
                         <a>
                           <Image
@@ -43,9 +43,9 @@ const Footer2 = () => {
                           </svg>
                         </div>
                         <div className="content">
-                          <span>To More Inquiry</span>
+                          <span>{t("call-us")}</span>
                           <h6>
-                            <a href="tel:+990737621432">+990-737 621 432</a>
+                            <a href="tel:+908508880373">+90 850 888 0 373</a>
                           </h6>
                         </div>
                       </div>
@@ -65,9 +65,9 @@ const Footer2 = () => {
                           </svg>
                         </div>
                         <div className="content">
-                          <span>To Send Mail</span>
+                          <span>{t("email-us")}</span>
                           <h6>
-                            <a href="mailto:info@gmail.com">info@gmail.com</a>
+                            <a href="mailto:info@esehill.com">info@esehill.com</a>
                           </h6>
                         </div>
                       </div>
