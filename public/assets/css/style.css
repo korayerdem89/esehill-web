@@ -1072,11 +1072,11 @@ body.tt-magic-cursor #magic-cursor {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 19px 5% 19px 21%;
+  padding: 19px 5% 19px 10%;
 }
 @media (min-width: 1400px) and (max-width: 1599px) {
   .topbar-area {
-    padding: 19px 3% 19px 23%;
+    padding: 19px 3% 19px 3%;
   }
 }
 @media (max-width: 1399px) {
@@ -1106,7 +1106,7 @@ body.tt-magic-cursor #magic-cursor {
 .topbar-area .topbar-left li a {
   color: var(--title-color);
   font-family: var(--font-montserrat);
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 500;
   transition: 0.35s;
 }
@@ -1667,13 +1667,14 @@ body.tt-magic-cursor #magic-cursor {
   position: relative;
   font-family: var(--font-montserrat);
   font-weight: 500;
-  font-size: 14px;
+  font-size: 18px;
   transition: all 0.5s ease-out 0s;
   position: relative;
   border: 1px solid transparent;
   border-radius: 15px;
   line-height: 1;
 }
+
 @media (max-width: 991px) {
   .header-area.style-2 .menu-wrap .main-menu ul > li > a {
     padding: 32px 9px;
@@ -1981,16 +1982,7 @@ body.tt-magic-cursor #magic-cursor {
     margin-left: 10px;
     padding: 10px 0;
   }
-  .header-area.style-2 .menu-wrap .main-menu ul li ul.sub-menu > li {
-    border-bottom: 1px solid transparent;
-  }
-  .header-area.style-2 .menu-wrap .main-menu ul li ul.sub-menu > li a {
-    font-size: 12px;
-    padding: 7px 0px;
-  }
-  .header-area.style-2 .menu-wrap .main-menu ul li ul.sub-menu > li a.active {
-    color: var(--white-color);
-  }
+
   .header-area.style-2 .menu-wrap .main-menu ul li .bi {
     top: 8px;
     font-size: 20px;
@@ -5775,7 +5767,7 @@ footer .footer-btm .social-area li a:hover i {
  28. Home2 Contact Section
 ========================================*/
 .contact-section2 {
-  background: linear-gradient(90deg, #adc5e4 0%, #e0e7ee 100%);
+  background: linear-gradient(90deg, #d6a45e 0%, #e0e7ee 100%);
   padding: 85px 0;
 }
 .contact-section2 .contact-content {

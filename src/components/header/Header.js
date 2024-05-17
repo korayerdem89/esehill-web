@@ -146,7 +146,7 @@ const Header = () => {
             </div>
             <ul className="menu-list">
               {menuData.map((data) => {
-                const { id, label, link, subMenu } = data;
+                const { id, label, link } = data;
                 return (
                   <li key={id} className={currentRoute === link ? "active" : ""}>
                     <Link legacyBehavior href={link}>
@@ -154,32 +154,6 @@ const Header = () => {
                         {t(label)}
                       </a>
                     </Link>
-                    {subMenu && (
-                      <ul className={`sub-menu ${state.activeMenu === label ? "d-block" : ""}`}>
-                        {subMenu.map((subItem, subIndex) => (
-                          <li key={subIndex} className={`menu-item-has-children`}>
-                            <Link legacyBehavior href={subItem.link}>
-                              <a>{subItem.label}</a>
-                            </Link>
-                            {subItem.subMenu && (
-                              <ul
-                                className={`sub-menu ${
-                                  state.activeSubMenu === subItem.label ? "d-block" : ""
-                                }`}
-                              >
-                                {subItem.subMenu.map((subItem) => (
-                                  <li key={subItem.id} className="menu-item-has-children">
-                                    <Link legacyBehavior href={subItem.link}>
-                                      <a>{subItem.label}</a>
-                                    </Link>
-                                  </li>
-                                ))}
-                              </ul>
-                            )}
-                          </li>
-                        ))}
-                      </ul>
-                    )}
                   </li>
                 );
               })}

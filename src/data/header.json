@@ -22,39 +22,7 @@
   {
     "id": "4",
     "label": "contact",
-    "link": "#",
-    "subMenu": [
-      {
-        "id": "1",
-        "label": "Portfolio Style 01",
-        "link": "/portfolio-single-column"
-      },
-      {
-        "id": "2",
-        "label": "Portfolio Style 02",
-        "link": "/portfolio-two-column"
-      },
-      {
-        "id": "3",
-        "label": "Portfolio Style 03",
-        "link": "/portfolio-three-column"
-      },
-      {
-        "id": "4",
-        "label": "Portfolio Style 04 With Tab",
-        "link": "/portfolio-three-column-tab"
-      },
-      {
-        "id": "5",
-        "label": "Fixed Container Portfolio",
-        "link": "/portfolio-fixed-container"
-      },
-      {
-        "id": "6",
-        "label": "Portfolio Details",
-        "link": "/portfolio-details"
-      }
-    ]
+    "link": "#"
   },
   {
     "id": "5",
