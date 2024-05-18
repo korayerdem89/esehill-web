@@ -44,7 +44,7 @@ const About = () => {
             </div>
             <div className="col-xxl-4 col-lg-5">
               <div className="about-img ">
-                <Image width={592} height={839} src="/assets/img/home2/about-img.jpg" alt="" />
+                <Image width={592} height={650} src="/assets/img/home2/about-img.jpg" alt="" />
               </div>
             </div>
           </div>
