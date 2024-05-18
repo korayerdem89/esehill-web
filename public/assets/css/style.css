@@ -734,7 +734,7 @@ body.tt-magic-cursor #magic-cursor {
 .container-fluid.one {
   max-width: 1746px;
 }
- 
+
 .container-fluid.pl--120 {
   padding-left: 120px;
 }
@@ -5616,6 +5616,7 @@ footer .footer-btm .social-area li a:hover i {
 ========================================*/
 .blog-wrap:nth-child(even) .blog-img {
   width: 100%;
+  height: 290px;
 }
 .blog-wrap:nth-child(even) .blog-img img {
   max-height: 290px;
@@ -5695,7 +5696,7 @@ footer .footer-btm .social-area li a:hover i {
 .blog-card2 .blog-content h4 a {
   color: var(--title-color);
   font-family: var(--font-marcellus);
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.4;
   transition: 0.35s;

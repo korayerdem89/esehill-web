@@ -33,7 +33,12 @@ const Brands = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 blog-wrap">
                 <div className="blog-card2">
                   <div className="blog-img magnetic-item">
-                    <Image width={666} height={520} src="/assets/img/home2/brands/6.png" alt="" />
+                    <Image
+                      width={371}
+                      height={290}
+                      src="/assets/img/home2/brands/6.png"
+                      alt="erdem-emre-sen-official"
+                    />
                   </div>
                   <div className="blog-content">
                     <h4>
@@ -64,7 +69,12 @@ const Brands = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 blog-wrap">
                 <div className="blog-card2">
                   <div className="blog-img magnetic-item">
-                    <Image width={666} height={520} src="/assets/img/home2/brands/2.png" alt="" />
+                    <Image
+                      width={371}
+                      height={290}
+                      src="/assets/img/home2/brands/2.png"
+                      alt="ese-finance"
+                    />
                   </div>
                   <div className="blog-content">
                     <h4>
@@ -95,7 +105,12 @@ const Brands = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 blog-wrap">
                 <div className="blog-card2">
                   <div className="blog-img magnetic-item">
-                    <Image width={666} height={520} src="/assets/img/home2/brands/3.png" alt="" />
+                    <Image
+                      width={371}
+                      height={290}
+                      src="/assets/img/home2/brands/3.png"
+                      alt="onlyyou-brands"
+                    />
                   </div>
                   <div className="blog-content">
                     <h4>
@@ -126,7 +141,12 @@ const Brands = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 blog-wrap">
                 <div className="blog-card2">
                   <div className="blog-img magnetic-item">
-                    <Image width={666} height={520} src="/assets/img/home2/brands/7.png" alt="" />
+                    <Image
+                      width={371}
+                      height={290}
+                      src="/assets/img/home2/brands/7.png"
+                      alt="ese-real-estate"
+                    />
                   </div>
                   <div className="blog-content">
                     <h4>
