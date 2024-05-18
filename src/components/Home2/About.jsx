@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import CountUp from "react-countup";
 import { useTranslation } from "next-i18next";
+import Image from "next/image";
 const About = () => {
   const { t } = useTranslation("about");
   return (
@@ -43,7 +44,7 @@ const About = () => {
             </div>
             <div className="col-xxl-4 col-lg-5">
               <div className="about-img ">
-                <img src="assets/img/home2/about-img.jpg" alt="" />
+                <Image width={592} height={839} src="/assets/img/home2/about-img.jpg" alt="" />
               </div>
             </div>
           </div>
