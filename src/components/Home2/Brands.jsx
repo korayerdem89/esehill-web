@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { useTranslation } from "next-i18next";
+import Image from "next/image";
 const Brands = () => {
   const { t } = useTranslation("brands");
   return (
@@ -32,7 +33,7 @@ const Brands = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 blog-wrap">
                 <div className="blog-card2">
                   <div className="blog-img magnetic-item">
-                    <img src="assets/img/home2/brands/6.png" alt="" />
+                    <Image width={666} height={520} src="/assets/img/home2/brands/6.png" alt="" />
                   </div>
                   <div className="blog-content">
                     <h4>
@@ -63,7 +64,7 @@ const Brands = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 blog-wrap">
                 <div className="blog-card2">
                   <div className="blog-img magnetic-item">
-                    <img src="assets/img/home2/brands/2.png" alt="" />
+                    <Image width={666} height={520} src="/assets/img/home2/brands/2.png" alt="" />
                   </div>
                   <div className="blog-content">
                     <h4>
@@ -94,7 +95,7 @@ const Brands = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 blog-wrap">
                 <div className="blog-card2">
                   <div className="blog-img magnetic-item">
-                    <img src="assets/img/home2/brands/3.png" alt="" />
+                    <Image width={666} height={520} src="/assets/img/home2/brands/3.png" alt="" />
                   </div>
                   <div className="blog-content">
                     <h4>
@@ -125,7 +126,7 @@ const Brands = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 blog-wrap">
                 <div className="blog-card2">
                   <div className="blog-img magnetic-item">
-                    <img src="assets/img/home2/brands/7.png" alt="" />
+                    <Image width={666} height={520} src="/assets/img/home2/brands/7.png" alt="" />
                   </div>
                   <div className="blog-content">
                     <h4>

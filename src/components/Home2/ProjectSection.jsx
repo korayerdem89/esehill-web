@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useTranslation } from "next-i18next";
 import SwiperCore, { Autoplay, EffectFade, Navigation, Pagination } from "swiper";
+import Image from "next/image";
 SwiperCore.use([Pagination, Autoplay, EffectFade, Navigation]);
 
 const ProjectSection = () => {
@@ -70,7 +71,13 @@ const ProjectSection = () => {
                 <SwiperSlide className="swiper-slide">
                   <div className="project-card">
                     <div className="project-img">
-                      <img src="assets/img/home2/renewable-energy.jpg" alt="" />
+                      <Image
+                        width={500}
+                        height={268}
+                        style={{ objectFit: "cover" }}
+                        src="/assets/img/home2/renewable-energy.jpg"
+                        alt=""
+                      />
                     </div>
                     <div className="project-content">
                       <div className="category-title">
@@ -108,7 +115,12 @@ const ProjectSection = () => {
                 <SwiperSlide className="swiper-slide">
                   <div className="project-card">
                     <div className="project-img">
-                      <img src="assets/img/home2/consultant.jpg" alt="" />
+                      <Image
+                        width={500}
+                        height={268}
+                        src="/assets/img/home2/consultant.jpg"
+                        alt=""
+                      />
                     </div>
                     <div className="project-content">
                       <div className="category-title">
@@ -146,7 +158,7 @@ const ProjectSection = () => {
                 <SwiperSlide className="swiper-slide">
                   <div className="project-card">
                     <div className="project-img">
-                      <img src="assets/img/home2/finance.jpg" alt="" />
+                      <Image width={500} height={268} src="/assets/img/home2/finance.jpg" alt="" />
                     </div>
                     <div className="project-content">
                       <div className="category-title">
@@ -184,7 +196,12 @@ const ProjectSection = () => {
                 <SwiperSlide className="swiper-slide">
                   <div className="project-card">
                     <div className="project-img">
-                      <img src="assets/img/home2/real-estate.jpg" alt="" />
+                      <Image
+                        width={500}
+                        height={268}
+                        src="/assets/img/home2/real-estate.jpg"
+                        alt=""
+                      />
                     </div>
                     <div className="project-content">
                       <div className="category-title">
@@ -222,7 +239,7 @@ const ProjectSection = () => {
                 <SwiperSlide className="swiper-slide">
                   <div className="project-card">
                     <div className="project-img">
-                      <img src="assets/img/home2/digital.jpg" alt="" />
+                      <Image width={500} height={268} src="/assets/img/home2/digital.jpg" alt="" />
                     </div>
                     <div className="project-content">
                       <div className="category-title">
@@ -260,7 +277,12 @@ const ProjectSection = () => {
                 <SwiperSlide className="swiper-slide">
                   <div className="project-card">
                     <div className="project-img">
-                      <img src="assets/img/home2/fruit-export.jpg" alt="" />
+                      <Image
+                        width={500}
+                        height={268}
+                        src="/assets/img/home2/fruit-export.jpg"
+                        alt=""
+                      />
                     </div>
                     <div className="project-content">
                       <div className="category-title">
