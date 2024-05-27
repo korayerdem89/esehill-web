@@ -1,10 +1,10 @@
 import Link from "next/link";
 import menuData from "../../data/header.json";
 import { useReducer } from "react";
-
 import { useTranslation } from "next-i18next";
 import Image from "next/image";
 import { useRouter } from "next/router";
+
 const initialState = {
   activeMenu: "",
   activeSubMenu: "",
@@ -58,7 +58,7 @@ const Header = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
   const { t } = useTranslation("header");
   const currentRoute = useRouter().pathname;
-
+  console.log(currentRoute);
   const toggleLang = () => {
     dispatch({ type: "TOGGLE_LANG" });
   };
@@ -206,7 +206,7 @@ const Header = () => {
                     >
                       {t("language") !== "TR" && (
                         <li onClick={toggleLang}>
-                          <Link href="/" locale="tr">
+                          <Link href={`"/"`} locale="tr">
                             Türkçe
                           </Link>
                         </li>
