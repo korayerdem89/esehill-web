@@ -1,5 +1,5 @@
 import Link from "next/link";
-import menuData from "../../data/header.json";
+import menuData from "../../data/header";
 import { useReducer } from "react";
 import { useTranslation } from "next-i18next";
 import Image from "next/image";
@@ -58,7 +58,7 @@ const Header = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
   const { t } = useTranslation("header");
   const currentRoute = useRouter().pathname;
-  console.log(currentRoute);
+
   const toggleLang = () => {
     dispatch({ type: "TOGGLE_LANG" });
   };
@@ -133,8 +133,9 @@ const Header = () => {
               </div>
             </div>
             <ul className="menu-list">
-              {menuData.map((data) => {
+              {menuData().map((data) => {
                 const { id, label, link } = data;
+                console.log(currentRoute, link);
                 return (
                   <li key={id} className={currentRoute === link ? "active" : ""}>
                     <Link legacyBehavior href={link}>
