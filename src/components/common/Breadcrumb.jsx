@@ -26,7 +26,7 @@ const Breadcrumb = () => {
           backgroundImage: `linear-gradient(270deg, rgba(0, 0, 0, .55), rgba(0, 0, 0, 0.55) 101.02%), url(${displayData.bg_img})`,
         }}
       >
-        <div className="company-name">Aploxn</div>
+        <div className="company-name">MutluolProje</div>
         <div className="container-fluid one pl--95">
           <div className="row">
             <div className="col-lg-12">

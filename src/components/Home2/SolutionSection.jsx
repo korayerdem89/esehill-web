@@ -207,7 +207,7 @@ const SolutionSection = () => {
                     height={51}
                     alt="image"
                     className="img-fluid"
-                    src="/assets/img/site-logo.svg"
+                    src="/assets/img/site-logo.png"
                     style={{ objectFit: "contain", width: "500px", opacity: 0.1 }}
                   />
                 </div>

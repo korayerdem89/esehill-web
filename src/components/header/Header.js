@@ -49,6 +49,11 @@ function reducer(state, action) {
         ...state,
         isLang: !state.isLang,
       };
+    case "TOGGLE_CURRENCY":
+      return {
+        ...state,
+        isCurrency: !state.isCurrency,
+      };
     default:
       return state;
   }
@@ -63,6 +68,9 @@ const Header = () => {
     dispatch({ type: "TOGGLE_LANG" });
   };
 
+  const toggleCurrency = () => {
+    dispatch({ type: "TOGGLE_CURRENCY" });
+  };
   const toggleSidebar = () => {
     dispatch({ type: "TOGGLE_MENU", menu: "" });
     dispatch({ type: "TOGGLE_SUB_MENU", subMenu: "" });
@@ -82,7 +90,7 @@ const Header = () => {
                   <path d="M12.8333 0H1.16668C0.523223 0 0 0.498307 0 1.11112V8.88891C0 9.50169 0.523223 10 1.16668 10H12.8334C13.4768 10 14 9.50169 14 8.88888V1.11112C14 0.498307 13.4768 0 12.8333 0ZM1.16668 0.555547H12.8334C12.8763 0.555547 12.9142 0.570469 12.9545 0.578906C11.9445 1.4593 8.59532 4.37732 7.42328 5.38302C7.33157 5.46169 7.18375 5.55555 7.00003 5.55555C6.8163 5.55555 6.66848 5.46169 6.57647 5.38276C5.40455 4.37721 2.05518 1.45904 1.0453 0.578958C1.08571 0.570521 1.12366 0.555547 1.16668 0.555547ZM0.583324 8.88888V1.11112C0.583324 1.05669 0.600551 1.00732 0.615973 0.957578C1.38904 1.63143 3.72594 3.66747 5.24122 4.97979C3.73086 6.21539 1.39336 8.32602 0.614141 9.03367C0.600387 8.98643 0.583324 8.94023 0.583324 8.88888ZM12.8333 9.44445H1.16668C1.12008 9.44445 1.07866 9.42898 1.03515 9.41909C1.84034 8.68805 4.19273 6.56529 5.67654 5.35635C5.8461 5.50294 6.0159 5.64928 6.18595 5.79536C6.42636 6.00208 6.70775 6.11112 7 6.11112C7.29225 6.11112 7.57364 6.00206 7.81375 5.79562C7.98389 5.64945 8.1538 5.50303 8.32347 5.35635C9.80736 6.56516 12.1594 8.68776 12.9648 9.41909C12.9213 9.42898 12.88 9.44445 12.8333 9.44445ZM13.4167 8.88888C13.4167 8.94021 13.3996 8.98643 13.3859 9.03367C12.6064 8.32565 10.2691 6.21526 8.7588 4.97982C10.2741 3.6675 12.6107 1.63164 13.384 0.957526C13.3994 1.00727 13.4167 1.05667 13.4167 1.11109V8.88888Z" />
                 </g>
               </svg>
-              info@esehill.com
+              info@mutluolproje.com
             </a>
           </li>
           <li>
@@ -109,7 +117,7 @@ const Header = () => {
                 height={51}
                 alt="image"
                 className="img-fluid"
-                src="/assets/img/site-logo.svg"
+                src="/assets/img/site-logo.png"
                 style={{ objectFit: "contain", width: "100px" }}
               />
             </a>
@@ -126,7 +134,7 @@ const Header = () => {
                       width={49.5}
                       height={52}
                       alt="image"
-                      src="/assets/img/site-logo.svg"
+                      src="/assets/img/site-logo.png"
                     />
                   </a>
                 </Link>
@@ -150,7 +158,7 @@ const Header = () => {
               <ul className="topbar-right">
                 <li> {t("work-hours")}</li>
                 <li>
-                  <a href="mailto:info@esehill.com">
+                  <a href="mailto:info@mutluolproje.com">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={14}
@@ -161,7 +169,7 @@ const Header = () => {
                         <path d="M12.8333 0H1.16668C0.523223 0 0 0.498307 0 1.11112V8.88891C0 9.50169 0.523223 10 1.16668 10H12.8334C13.4768 10 14 9.50169 14 8.88888V1.11112C14 0.498307 13.4768 0 12.8333 0ZM1.16668 0.555547H12.8334C12.8763 0.555547 12.9142 0.570469 12.9545 0.578906C11.9445 1.4593 8.59532 4.37732 7.42328 5.38302C7.33157 5.46169 7.18375 5.55555 7.00003 5.55555C6.8163 5.55555 6.66848 5.46169 6.57647 5.38276C5.40455 4.37721 2.05518 1.45904 1.0453 0.578958C1.08571 0.570521 1.12366 0.555547 1.16668 0.555547ZM0.583324 8.88888V1.11112C0.583324 1.05669 0.600551 1.00732 0.615973 0.957578C1.38904 1.63143 3.72594 3.66747 5.24122 4.97979C3.73086 6.21539 1.39336 8.32602 0.614141 9.03367C0.600387 8.98643 0.583324 8.94023 0.583324 8.88888ZM12.8333 9.44445H1.16668C1.12008 9.44445 1.07866 9.42898 1.03515 9.41909C1.84034 8.68805 4.19273 6.56529 5.67654 5.35635C5.8461 5.50294 6.0159 5.64928 6.18595 5.79536C6.42636 6.00208 6.70775 6.11112 7 6.11112C7.29225 6.11112 7.57364 6.00206 7.81375 5.79562C7.98389 5.64945 8.1538 5.50303 8.32347 5.35635C9.80736 6.56516 12.1594 8.68776 12.9648 9.41909C12.9213 9.42898 12.88 9.44445 12.8333 9.44445ZM13.4167 8.88888C13.4167 8.94021 13.3996 8.98643 13.3859 9.03367C12.6064 8.32565 10.2691 6.21526 8.7588 4.97982C10.2741 3.6675 12.6107 1.63164 13.384 0.957526C13.3994 1.00727 13.4167 1.05667 13.4167 1.11109V8.88888Z" />
                       </g>
                     </svg>
-                    info@esehill.com
+                    info@mutluolproje.com
                   </a>
                 </li>
                 <li>
@@ -200,6 +208,25 @@ const Header = () => {
                       </svg>
                       <span className="language-text">{t("language")}</span>
                     </div>
+                    <div
+                      className="currency-btn"
+                      style={{ alignItems: "center", display: "flex" }}
+                      onClick={toggleCurrency}
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width={16}
+                        height={16}
+                        viewBox="0 0 16 16"
+                        fill="none"
+                      >
+                        <path
+                          d="M152,116H140V60h4a28.03146,28.03146,0,0,1,28,28,12,12,0,0,0,24,0,52.059,52.059,0,0,0-52-52h-4V24a12,12,0,0,0-24,0V36h-8a52,52,0,0,0,0,104h8v56H104a28.03146,28.03146,0,0,1-28-28,12,12,0,0,0-24,0,52.059,52.059,0,0,0,52,52h12v12a12,12,0,0,0,24,0V220h12a52,52,0,0,0,0-104Zm-44,0a28,28,0,0,1,0-56h8v56Zm44,80H140V140h12a28,28,0,0,1,0,56Z"
+                          fill="#d6a45e"
+                        />
+                      </svg>
+                      <span className="currency-text">{t("currency")}</span>
+                    </div>
                     <ul
                       className={`lang-card ${state.isLang ? "" : "d-none"}`}
                       style={{ marginTop: "6px" }}
@@ -218,11 +245,40 @@ const Header = () => {
                           </Link>
                         </li>
                       )}
-                      {t("language") !== "NL" && (
+                      {t("language") !== "IR" && (
                         <li onClick={toggleLang}>
-                          <Link href="/" locale="nl">
-                            Nederlands
+                          <Link href="/" locale="ir">
+                            فارسی
                           </Link>
+                        </li>
+                      )}
+                      {t("language") !== "SA" && (
+                        <li onClick={toggleLang}>
+                          <Link href="/" locale="sa">
+                            العربیة
+                          </Link>
+                        </li>
+                      )}
+                      {t("language") !== "RU" && (
+                        <li onClick={toggleLang}>
+                          <Link href="/" locale="ru">
+                            Российская
+                          </Link>
+                        </li>
+                      )}
+                    </ul>
+                    <ul
+                      className={`currency-card ${state.isCurrency ? "" : "d-none"}`}
+                      style={{ marginTop: "6px" }}
+                    >
+                      {t("currency") !== "TL" && (
+                        <li onClick={toggleCurrency}>
+                            TL
+                        </li>
+                      )}
+                      {t("currency") !== "USD" && (
+                        <li onClick={toggleCurrency}>
+                            USD
                         </li>
                       )}
                     </ul>
@@ -236,8 +292,8 @@ const Header = () => {
               <div className="lang-btn" onClick={toggleLang}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width={16}
-                  height={16}
+                  width={18}
+                  height={18}
                   viewBox="0 0 16 16"
                   fill="none"
                 >
@@ -246,6 +302,22 @@ const Header = () => {
                     fill="white"
                   />
                 </svg>
+              </div>
+              <div> </div>
+              <div className="currency-btn" onClick={toggleCurrency}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width={24}
+                  height={24}
+                  viewBox="0 0 24 24"
+                  fill="rgba(0, 0, 0, 1) transform: ;msFilter:;"
+                >
+                  <path
+                    d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm1 14.915V18h-2v-1.08c-2.339-.367-3-2.002-3-2.92h2c.011.143.159 1 2 1 1.38 0 2-.585 2-1 0-.324 0-1-2-1-3.48 0-4-1.88-4-3 0-1.288 1.029-2.584 3-2.915V6.012h2v1.109c1.734.41 2.4 1.853 2.4 2.879h-1l-1 .018C13.386 9.638 13.185 9 12 9c-1.299 0-2 .516-2 1 0 .374 0 1 2 1 3.48 0 4 1.88 4 3 0 1.288-1.029 2.584-3 2.915z"
+                    fill="white"
+                  />
+                </svg>
+
               </div>
               <ul className={`lang-card ${state.isLang ? "active" : ""}`}>
                 {t("language") !== "TR" && (
@@ -262,11 +334,37 @@ const Header = () => {
                     </Link>
                   </li>
                 )}
-                {t("language") !== "NL" && (
+                {t("language") !== "IR" && (
                   <li onClick={toggleLang}>
-                    <Link href="/" locale="nl">
-                      Nederlands
+                    <Link href="/" locale="ir">
+                      فارسی
                     </Link>
+                  </li>
+                )}
+                {t("language") !== "SA" && (
+                  <li onClick={toggleLang}>
+                    <Link href="/" locale="sa">
+                      العربیة
+                    </Link>
+                  </li>
+                )}
+                {t("language") !== "RU" && (
+                  <li onClick={toggleLang}>
+                    <Link href="/" locale="ru">
+                      Российская
+                    </Link>
+                  </li>
+                )}
+              </ul>
+              <ul className={`lang-card ${state.isCurrency ? "active" : ""}`}>
+                {t("currency") !== "TL" && (
+                  <li onClick={toggleCurrency}>
+                      TL
+                  </li>
+                )}
+                {t("currency") !== "USD" && (
+                  <li onClick={toggleCurrency}>
+                      USD
                   </li>
                 )}
               </ul>
