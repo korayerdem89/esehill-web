@@ -22,7 +22,7 @@ const Footer2 = () => {
                             height={51}
                             alt="image"
                             className="img-fluid"
-                            src="/assets/img/site-logo.svg"
+                            src="/assets/img/site-logo.png"
                             style={{ objectFit: "contain", width: "280px" }}
                           />
                         </a>
@@ -45,7 +45,7 @@ const Footer2 = () => {
                         <div className="content">
                           <span>{t("call-us")}</span>
                           <h6>
-                            <a href="tel:+908508880373">+90 850 888 0 373</a>
+                            <a href="tel:+908508880373">+90 532 283 81 93</a>
                           </h6>
                         </div>
                       </div>
@@ -67,7 +67,7 @@ const Footer2 = () => {
                         <div className="content">
                           <span>{t("email-us")}</span>
                           <h6>
-                            <a href="mailto:info@esehill.com">info@esehill.com</a>
+                            <a href="mailto:info@mutluolproje.com">info@mutluolproje.com</a>
                           </h6>
                         </div>
                       </div>

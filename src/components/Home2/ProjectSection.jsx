@@ -75,24 +75,24 @@ const ProjectSection = () => {
                         width={500}
                         height={268}
                         style={{ objectFit: "cover" }}
-                        src="/assets/img/home2/renewable-energy.jpg"
+                        src="/assets/img/home2/arsa.png"
                         alt=""
                       />
                     </div>
                     <div className="project-content">
                       <div className="category-title">
                         <div className="category">
-                          <Link legacyBehavior href="/portfolio-two-column">
+                          <Link legacyBehavior href="#">
                             <a>{t("project1-title")}</a>
                           </Link>
                         </div>
                         <h4>
-                          <Link legacyBehavior href="/portfolio-details">
+                          <Link legacyBehavior href="#">
                             <a>{t("project1")}</a>
                           </Link>
                         </h4>
                       </div>
-                      <Link legacyBehavior href="/portfolio-details">
+                      <Link legacyBehavior href="#">
                         <a className="explore-btn">
                           {t("explore-project")}
                           <svg
@@ -125,17 +125,17 @@ const ProjectSection = () => {
                     <div className="project-content">
                       <div className="category-title">
                         <div className="category">
-                          <Link legacyBehavior href="/portfolio-two-column">
+                          <Link legacyBehavior href="#">
                             <a>{t("project2-title")}</a>
                           </Link>
                         </div>
                         <h4>
-                          <Link legacyBehavior href="/portfolio-details">
+                          <Link legacyBehavior href="#">
                             <a>{t("project2")}</a>
                           </Link>
                         </h4>
                       </div>
-                      <Link legacyBehavior href="/portfolio-details">
+                      <Link legacyBehavior href="#">
                         <a className="explore-btn">
                           {t("explore-project")}
                           <svg
@@ -163,17 +163,17 @@ const ProjectSection = () => {
                     <div className="project-content">
                       <div className="category-title">
                         <div className="category">
-                          <Link legacyBehavior href="/portfolio-two-column">
+                          <Link legacyBehavior href="#">
                             <a>{t("project3-title")}</a>
                           </Link>
                         </div>
                         <h4>
-                          <Link legacyBehavior href="/portfolio-details">
+                          <Link legacyBehavior href="#">
                             <a>{t("project3")}</a>
                           </Link>
                         </h4>
                       </div>
-                      <Link legacyBehavior href="/portfolio-details">
+                      <Link legacyBehavior href="#">
                         <a className="explore-btn">
                           {t("explore-project")}
                           <svg
@@ -206,17 +206,17 @@ const ProjectSection = () => {
                     <div className="project-content">
                       <div className="category-title">
                         <div className="category">
-                          <Link legacyBehavior href="/portfolio-two-column">
+                          <Link legacyBehavior href="#">
                             <a>{t("project4-title")}</a>
                           </Link>
                         </div>
                         <h4>
-                          <Link legacyBehavior href="/portfolio-details">
+                          <Link legacyBehavior href="#">
                             <a>{t("project4")}</a>
                           </Link>
                         </h4>
                       </div>
-                      <Link legacyBehavior href="/portfolio-details">
+                      <Link legacyBehavior href="#">
                         <a className="explore-btn">
                           {t("explore-project")}
                           <svg
@@ -239,22 +239,22 @@ const ProjectSection = () => {
                 <SwiperSlide className="swiper-slide">
                   <div className="project-card">
                     <div className="project-img">
-                      <Image width={500} height={268} src="/assets/img/home2/digital.jpg" alt="" />
+                      <Image width={500} height={268} src="/assets/img/home2/ticari.png" alt="" />
                     </div>
                     <div className="project-content">
                       <div className="category-title">
                         <div className="category">
-                          <Link legacyBehavior href="/portfolio-two-column">
+                          <Link legacyBehavior href="#">
                             <a>{t("project5-title")}</a>
                           </Link>
                         </div>
                         <h4>
-                          <Link legacyBehavior href="/portfolio-details">
+                          <Link legacyBehavior href="#">
                             <a>{t("project5")}</a>
                           </Link>
                         </h4>
                       </div>
-                      <Link legacyBehavior href="/portfolio-details">
+                      <Link legacyBehavior href="#">
                         <a className="explore-btn">
                           {t("explore-project")}
                           <svg
@@ -280,24 +280,24 @@ const ProjectSection = () => {
                       <Image
                         width={500}
                         height={268}
-                        src="/assets/img/home2/fruit-export.jpg"
+                        src="/assets/img/home2/house.jpg"
                         alt=""
                       />
                     </div>
                     <div className="project-content">
                       <div className="category-title">
                         <div className="category">
-                          <Link legacyBehavior href="/portfolio-two-column">
+                          <Link legacyBehavior href="#">
                             <a>{t("project6-title")}</a>
                           </Link>
                         </div>
                         <h4>
-                          <Link legacyBehavior href="/portfolio-details">
+                          <Link legacyBehavior href="#">
                             <a>{t("project6")}</a>
                           </Link>
                         </h4>
                       </div>
-                      <Link legacyBehavior href="/portfolio-details">
+                      <Link legacyBehavior href="#">
                         <a className="explore-btn">
                           {t("explore-project")}
                           <svg

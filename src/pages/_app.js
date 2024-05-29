@@ -17,12 +17,12 @@ function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Esehill </title>
+        <title>MutluolProje </title>
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <meta name="description" content="Yatırım Danışmanlığı" />
-        <link rel="icon" href="assets/img/site-logo.svg" type="image/svg" sizes="20x20" />
+        <link rel="icon" href="assets/img/site-logo.png" type="image/svg" sizes="20x20" />
       </Head>
       <Component {...pageProps} />
       <ScrollTopBtn />

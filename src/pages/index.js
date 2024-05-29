@@ -6,7 +6,7 @@ import SolutionSection from "../components/Home2/SolutionSection";
 import About from "../components/Home2/About";
 import ProjectSection from "../components/Home2/ProjectSection";
 import ClientSection from "../components/Home2/ClientSection";
-import Brands from "../components/Home2/Brands";
+// import Brands from "../components/Home2/Brands"; // Not necessary 
 import Contact from "../components/Home2/Contact";
 import Footer2 from "../components/footer/Footer2";
 
@@ -27,7 +27,7 @@ export async function getStaticProps({ locale }) {
         "video",
         "people",
         "client",
-        "brands",
+        // "brands",
         "contact",
         "footer",
       ])),
@@ -44,7 +44,7 @@ const Home = () => {
       <About />
       <ProjectSection />
       <ClientSection />
-      <Brands />
+      {/* <Brands /> */}
       <Contact />
       <Footer2 />
     </>
