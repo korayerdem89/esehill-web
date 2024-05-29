@@ -58,7 +58,7 @@ const ClientSection = () => {
                       alt="reference client"
                     />
                   </a>
-                  <a href="#">
+                  {/* <a href="#">
                     <Image
                       width={170}
                       height={62.5}
@@ -264,7 +264,7 @@ const ClientSection = () => {
                       src="/assets/img/home2/refs/4.png"
                       alt="reference client"
                     />
-                  </a>
+                  </a> */}
                 </div>
               </Marquee>
             </div>
