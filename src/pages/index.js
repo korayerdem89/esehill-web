@@ -2,9 +2,10 @@ import React from "react";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Header from "../components/header/Header";
 import Banner from "../components/Home2/Banner";
-import SolutionSection from "../components/Home2/SolutionSection";
+// import SolutionSection from "../components/Home2/SolutionSection";
 import About from "../components/Home2/About";
 import ProjectSection from "../components/Home2/ProjectSection";
+import PeopleSection from "@/components/Home2/PeopleSection";
 import ClientSection from "../components/Home2/ClientSection";
 // import Brands from "../components/Home2/Brands"; // Not necessary 
 import Contact from "../components/Home2/Contact";
@@ -17,7 +18,7 @@ export async function getStaticProps({ locale }) {
         "common",
         "header",
         "banner",
-        "solution",
+        // "solution",
         "about",
         "testimonial",
         "cover",
@@ -25,8 +26,8 @@ export async function getStaticProps({ locale }) {
         "project",
         "choose",
         "video",
-        "people",
         "client",
+        "people",
         // "brands",
         "contact",
         "footer",
@@ -40,10 +41,11 @@ const Home = () => {
     <>
       <Header />
       <Banner />
-      <SolutionSection />
-      <About />
       <ProjectSection />
+      {/* <SolutionSection /> */}
+      <About />
       <ClientSection />
+      <PeopleSection/>
       {/* <Brands /> */}
       <Contact />
       <Footer2 />

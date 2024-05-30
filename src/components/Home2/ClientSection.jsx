@@ -58,7 +58,7 @@ const ClientSection = () => {
                       alt="reference client"
                     />
                   </a>
-                  {/* <a href="#">
+                   <a href="#">
                     <Image
                       width={170}
                       height={62.5}
@@ -67,6 +67,7 @@ const ClientSection = () => {
                       alt="reference client"
                     />
                   </a>
+                  {/*
                   <a href="#">
                     <Image
                       width={170}

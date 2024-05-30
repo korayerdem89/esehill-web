@@ -5301,6 +5301,7 @@ footer .footer-btm .social-area li a:hover i {
 .people-card2 .people-content .name-deg {
   border: 1px solid #eee;
   padding: 22px 30px;
+  min-height: 150px;
 }
 .people-card2 .people-content .name-deg h5 {
   margin-bottom: 0;
