@@ -63,12 +63,12 @@ const PeopleSection = () => {
         <div className="row">
           <div className="col-lg-12 pl--95 gap-lg-5 gap-4 d-flex flex-lg-nowrap flex-wrap align-items-end justify-content-between mb-60">
             <div className="section-title1 two">
-              <span>Our People</span>
-              <h2>Excellent Service Provided by Our Superb Consultant.</h2>
+              <span>{t("title")}</span>
+              <h2>{t("description")}</h2>
             </div>
             <Link legacyBehavior href="/our-people1">
               <a className="primary-btn1 btn-hover">
-                Explore People
+              {t("teamLink")}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={12}
